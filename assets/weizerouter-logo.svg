@@ -1,0 +1,18 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="120" fill="#070712"/>
+  <circle cx="256" cy="256" r="190" stroke="url(#ring)" stroke-width="14"/>
+  <path d="M122 166L198 346L256 230L314 346L390 166H330L305 244L256 151L207 244L182 166H122Z" fill="url(#wgrad)"/>
+  <text x="256" y="420" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" letter-spacing="8">WEIZEROUTER</text>
+  <defs>
+    <linearGradient id="ring" x1="65" y1="80" x2="430" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A855F7"/>
+      <stop offset="0.55" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#FBBF24"/>
+    </linearGradient>
+    <linearGradient id="wgrad" x1="122" y1="166" x2="390" y2="346" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C084FC"/>
+      <stop offset="0.5" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+</svg>
