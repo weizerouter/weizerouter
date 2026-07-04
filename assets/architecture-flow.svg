@@ -1,0 +1,151 @@
+<svg width="1200" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="1200" height="600" fill="#0a0a0f"/>
+  
+  <!-- Title -->
+  <text x="600" y="40" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    WeizeRouter Architecture Flow
+  </text>
+  
+  <!-- User -->
+  <g transform="translate(50, 120)">
+    <rect width="140" height="80" rx="8" fill="url(#grad1)" filter="url(#glow)"/>
+    <text x="70" y="35" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">User</text>
+    <text x="70" y="55" font-family="Arial, sans-serif" font-size="12" fill="#e0e0e0" text-anchor="middle">Customer</text>
+  </g>
+  
+  <!-- Arrow 1 -->
+  <path d="M 190 160 L 270 160" stroke="#667eea" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#667eea" />
+    </marker>
+  </defs>
+  
+  <!-- Telegram Bot / Website -->
+  <g transform="translate(270, 100)">
+    <rect width="160" height="120" rx="8" fill="url(#grad1)" filter="url(#glow)"/>
+    <text x="80" y="35" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">Telegram Bot</text>
+    <text x="80" y="55" font-family="Arial, sans-serif" font-size="12" fill="#e0e0e0" text-anchor="middle">+</text>
+    <text x="80" y="75" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">Website</text>
+    <text x="80" y="95" font-family="Arial, sans-serif" font-size="11" fill="#e0e0e0" text-anchor="middle">Order Channels</text>
+  </g>
+  
+  <!-- Arrow 2 -->
+  <path d="M 430 160 L 510 160" stroke="#667eea" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- QRIS Payment -->
+  <g transform="translate(510, 120)">
+    <rect width="140" height="80" rx="8" fill="url(#grad2)" filter="url(#glow)"/>
+    <text x="70" y="35" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">QRIS Payment</text>
+    <text x="70" y="55" font-family="Arial, sans-serif" font-size="12" fill="#e0e0e0" text-anchor="middle">Pakasir</text>
+  </g>
+  
+  <!-- Arrow 3 -->
+  <path d="M 650 160 L 730 160" stroke="#f5576c" stroke-width="3" fill="none" marker-end="url(#arrowhead2)"/>
+  <defs>
+    <marker id="arrowhead2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#f5576c" />
+    </marker>
+  </defs>
+  
+  <!-- Webhook -->
+  <g transform="translate(730, 120)">
+    <rect width="140" height="80" rx="8" fill="url(#grad2)" filter="url(#glow)"/>
+    <text x="70" y="35" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">Webhook</text>
+    <text x="70" y="55" font-family="Arial, sans-serif" font-size="12" fill="#e0e0e0" text-anchor="middle">Confirmation</text>
+  </g>
+  
+  <!-- Arrow 4 -->
+  <path d="M 870 160 L 950 160" stroke="#667eea" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Database -->
+  <g transform="translate(950, 120)">
+    <rect width="140" height="80" rx="8" fill="url(#grad1)" filter="url(#glow)"/>
+    <text x="70" y="35" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">Database</text>
+    <text x="70" y="55" font-family="Arial, sans-serif" font-size="12" fill="#e0e0e0" text-anchor="middle">SQLite</text>
+  </g>
+  
+  <!-- Arrow 5 down -->
+  <path d="M 1020 200 L 1020 280" stroke="#667eea" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- API Key Activation -->
+  <g transform="translate(950, 280)">
+    <rect width="140" height="80" rx="8" fill="url(#grad1)" filter="url(#glow)"/>
+    <text x="70" y="30" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">API Key</text>
+    <text x="70" y="50" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">Activation</text>
+    <text x="70" y="68" font-family="Arial, sans-serif" font-size="11" fill="#e0e0e0" text-anchor="middle">Instant</text>
+  </g>
+  
+  <!-- Arrow 6 left -->
+  <path d="M 950 320 L 430 320 L 430 220" stroke="#667eea" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrow 7 down from API Key -->
+  <path d="M 1020 360 L 1020 440" stroke="#667eea" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- API Gateway -->
+  <g transform="translate(950, 440)">
+    <rect width="140" height="80" rx="8" fill="url(#grad2)" filter="url(#glow)"/>
+    <text x="70" y="35" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">API Gateway</text>
+    <text x="70" y="55" font-family="Arial, sans-serif" font-size="12" fill="#e0e0e0" text-anchor="middle">OpenAI-compatible</text>
+  </g>
+  
+  <!-- Arrow 8 left -->
+  <path d="M 950 480 L 730 480" stroke="#f5576c" stroke-width="3" fill="none" marker-end="url(#arrowhead2)"/>
+  
+  <!-- Model Providers -->
+  <g transform="translate(560, 440)">
+    <rect width="170" height="80" rx="8" fill="url(#grad2)" filter="url(#glow)"/>
+    <text x="85" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">Model Providers</text>
+    <text x="85" y="55" font-family="Arial, sans-serif" font-size="11" fill="#e0e0e0" text-anchor="middle">Gemini, Claude, GLM,</text>
+    <text x="85" y="70" font-family="Arial, sans-serif" font-size="11" fill="#e0e0e0" text-anchor="middle">Kimi, etc.</text>
+  </g>
+  
+  <!-- Admin Notification branch -->
+  <path d="M 1020 280 L 1020 240 L 800 240 L 800 380" stroke="#f093fb" stroke-width="2" stroke-dasharray="5,5" fill="none" marker-end="url(#arrowhead3)"/>
+  <defs>
+    <marker id="arrowhead3" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#f093fb" />
+    </marker>
+  </defs>
+  
+  <!-- Admin -->
+  <g transform="translate(730, 380)">
+    <rect width="140" height="60" rx="8" fill="#1a1a2e" stroke="#f093fb" stroke-width="2"/>
+    <text x="70" y="30" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f093fb" text-anchor="middle">Admin</text>
+    <text x="70" y="48" font-family="Arial, sans-serif" font-size="11" fill="#e0e0e0" text-anchor="middle">Notification</text>
+  </g>
+  
+  <!-- Labels on arrows -->
+  <text x="230" y="150" font-family="Arial, sans-serif" font-size="11" fill="#a0a0a0" text-anchor="middle">selects package</text>
+  <text x="470" y="150" font-family="Arial, sans-serif" font-size="11" fill="#a0a0a0" text-anchor="middle">generates invoice</text>
+  <text x="690" y="150" font-family="Arial, sans-serif" font-size="11" fill="#a0a0a0" text-anchor="middle">user pays</text>
+  <text x="810" y="150" font-family="Arial, sans-serif" font-size="11" fill="#a0a0a0" text-anchor="middle">confirms</text>
+  <text x="910" y="150" font-family="Arial, sans-serif" font-size="11" fill="#a0a0a0" text-anchor="middle">updates</text>
+  <text x="1040" y="240" font-family="Arial, sans-serif" font-size="11" fill="#a0a0a0" text-anchor="start">activates</text>
+  <text x="680" y="310" font-family="Arial, sans-serif" font-size="11" fill="#a0a0a0" text-anchor="middle">delivers API key</text>
+  <text x="1040" y="400" font-family="Arial, sans-serif" font-size="11" fill="#a0a0a0" text-anchor="start">ready to use</text>
+  <text x="840" y="470" font-family="Arial, sans-serif" font-size="11" fill="#a0a0a0" text-anchor="middle">routes requests</text>
+  
+  <!-- Footer -->
+  <text x="600" y="580" font-family="Arial, sans-serif" font-size="12" fill="#606060" text-anchor="middle">
+    Fully automated flow from order to API access
+  </text>
+</svg>

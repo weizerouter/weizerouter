@@ -1,0 +1,170 @@
+<svg width="900" height="700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="flowGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="flowGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="flowGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+    <filter id="flowGlow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="900" height="700" fill="#0a0a0f"/>
+  
+  <!-- Title -->
+  <text x="450" y="40" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    QRIS Payment Flow
+  </text>
+  <text x="450" y="65" font-family="Arial, sans-serif" font-size="14" fill="#a0a0a0" text-anchor="middle">
+    Fully automated from order to API activation
+  </text>
+  
+  <!-- Step 1 -->
+  <circle cx="150" cy="140" r="35" fill="url(#flowGrad1)" filter="url(#flowGlow)"/>
+  <text x="150" y="150" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">1</text>
+  
+  <rect x="220" y="110" width="220" height="60" rx="8" fill="url(#flowGrad1)" filter="url(#flowGlow)"/>
+  <text x="330" y="135" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    User Selects Package
+  </text>
+  <text x="330" y="155" font-family="Arial, sans-serif" font-size="12" fill="#e0e0e0" text-anchor="middle">
+    Via Telegram Bot or Website
+  </text>
+  
+  <!-- Arrow 1 -->
+  <path d="M 330 170 L 330 210" stroke="#667eea" stroke-width="3" fill="none" marker-end="url(#arrow1)"/>
+  <defs>
+    <marker id="arrow1" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#667eea" />
+    </marker>
+  </defs>
+  
+  <!-- Step 2 -->
+  <circle cx="150" cy="260" r="35" fill="url(#flowGrad2)" filter="url(#flowGlow)"/>
+  <text x="150" y="270" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">2</text>
+  
+  <rect x="220" y="230" width="220" height="60" rx="8" fill="url(#flowGrad2)" filter="url(#flowGlow)"/>
+  <text x="330" y="255" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    QRIS Invoice Generated
+  </text>
+  <text x="330" y="275" font-family="Arial, sans-serif" font-size="12" fill="#e0e0e0" text-anchor="middle">
+    Dynamic QR code via Pakasir
+  </text>
+  
+  <!-- Arrow 2 -->
+  <path d="M 330 290 L 330 330" stroke="#f5576c" stroke-width="3" fill="none" marker-end="url(#arrow2)"/>
+  <defs>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#f5576c" />
+    </marker>
+  </defs>
+  
+  <!-- Step 3 -->
+  <circle cx="150" cy="380" r="35" fill="url(#flowGrad3)" filter="url(#flowGlow)"/>
+  <text x="150" y="390" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">3</text>
+  
+  <rect x="220" y="350" width="220" height="60" rx="8" fill="url(#flowGrad3)" filter="url(#flowGlow)"/>
+  <text x="330" y="375" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    User Pays via QRIS
+  </text>
+  <text x="330" y="395" font-family="Arial, sans-serif" font-size="12" fill="#e0e0e0" text-anchor="middle">
+    Scan QR code with any e-wallet
+  </text>
+  
+  <!-- Arrow 3 -->
+  <path d="M 330 410 L 330 450" stroke="#00f2fe" stroke-width="3" fill="none" marker-end="url(#arrow3)"/>
+  <defs>
+    <marker id="arrow3" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#00f2fe" />
+    </marker>
+  </defs>
+  
+  <!-- Step 4 -->
+  <circle cx="150" cy="500" r="35" fill="url(#flowGrad1)" filter="url(#flowGlow)"/>
+  <text x="150" y="510" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">4</text>
+  
+  <rect x="220" y="470" width="220" height="60" rx="8" fill="url(#flowGrad1)" filter="url(#flowGlow)"/>
+  <text x="330" y="495" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    Webhook Confirms
+  </text>
+  <text x="330" y="515" font-family="Arial, sans-serif" font-size="12" fill="#e0e0e0" text-anchor="middle">
+    Pakasir sends confirmation
+  </text>
+  
+  <!-- Arrow 4 -->
+  <path d="M 330 530 L 330 570" stroke="#667eea" stroke-width="3" fill="none" marker-end="url(#arrow1)"/>
+  
+  <!-- Step 5 -->
+  <circle cx="150" cy="620" r="35" fill="url(#flowGrad2)" filter="url(#flowGlow)"/>
+  <text x="150" y="630" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">5</text>
+  
+  <rect x="220" y="590" width="220" height="60" rx="8" fill="url(#flowGrad2)" filter="url(#flowGlow)"/>
+  <text x="330" y="615" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    Package Activated
+  </text>
+  <text x="330" y="635" font-family="Arial, sans-serif" font-size="12" fill="#e0e0e0" text-anchor="middle">
+    Database updated instantly
+  </text>
+  
+  <!-- Arrow to right branch -->
+  <path d="M 440 620 L 520 620" stroke="#f5576c" stroke-width="3" fill="none" marker-end="url(#arrow2)"/>
+  
+  <!-- Step 6 -->
+  <circle cx="590" cy="620" r="35" fill="url(#flowGrad3)" filter="url(#flowGlow)"/>
+  <text x="590" y="630" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">6</text>
+  
+  <rect x="660" y="590" width="220" height="60" rx="8" fill="url(#flowGrad3)" filter="url(#flowGlow)"/>
+  <text x="770" y="615" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    API Key Delivered
+  </text>
+  <text x="770" y="635" font-family="Arial, sans-serif" font-size="12" fill="#e0e0e0" text-anchor="middle">
+    Bot sends key to user
+  </text>
+  
+  <!-- Arrow up from step 6 -->
+  <path d="M 770 590 L 770 470" stroke="#00f2fe" stroke-width="3" fill="none" marker-end="url(#arrow3)"/>
+  
+  <!-- Step 7 -->
+  <circle cx="590" cy="380" r="35" fill="url(#flowGrad1)" filter="url(#flowGlow)"/>
+  <text x="590" y="390" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">7</text>
+  
+  <rect x="660" y="350" width="220" height="60" rx="8" fill="url(#flowGrad1)" filter="url(#flowGlow)"/>
+  <text x="770" y="375" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    User Calls API
+  </text>
+  <text x="770" y="395" font-family="Arial, sans-serif" font-size="12" fill="#e0e0e0" text-anchor="middle">
+    Gateway ready to use
+  </text>
+  
+  <!-- Success Badge -->
+  <rect x="550" y="180" width="180" height="60" rx="8" fill="#27c93f" filter="url(#flowGlow)"/>
+  <text x="640" y="205" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    ✓ Fully Automated
+  </text>
+  <text x="640" y="225" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle">
+    No manual approval
+  </text>
+  
+  <!-- Time indicator -->
+  <rect x="460" y="110" width="260" height="40" rx="6" fill="#1a1a2e" stroke="#667eea" stroke-width="2"/>
+  <text x="590" y="135" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#667eea" text-anchor="middle">
+    ⚡ Instant activation (5-10 seconds)
+  </text>
+  
+  <!-- Footer -->
+  <text x="450" y="680" font-family="Arial, sans-serif" font-size="12" fill="#a0a0a0" text-anchor="middle">
+    Zero human intervention • Completely automated workflow
+  </text>
+</svg>
