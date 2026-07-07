@@ -1,42 +1,19 @@
-# Operations
+# WeizeRouter Operations Manual
 
-This document explains the general operation model of WeizeRouter.
+Operational runbooks for maintaining WeizeRouter instances.
 
-## Runtime Components
+## Service Status Check
 
-- Telegram bot service
-- Web platform service
-- API gateway service
-- Payment webhook endpoint
-- Admin notification service
+To check the active server instances via PM2:
+```bash
+pm2 list
+```
 
-## Process Management
+To view real-time log outputs:
+```bash
+pm2 logs weizerouter-bot
+```
 
-WeizeRouter uses PM2 to manage long-running Node.js services.
+## Database Backups
 
-## Reverse Proxy
-
-Nginx is used as a reverse proxy for public HTTPS routing.
-
-## Monitoring
-
-Important things to monitor:
-
-- payment webhook success
-- API gateway health
-- provider availability
-- user package activation
-- transaction status
-- usage and fair-use events
-- service logs
-
-## Backup
-
-Important data should be backed up regularly:
-
-- database
-- configuration
-- package data
-- transaction records
-
-Secrets should never be published in public repositories.
+SQLite databases are backed up automatically every day at midnight. Daily snapshots are saved under `/var/backups/weizerouter/`.
