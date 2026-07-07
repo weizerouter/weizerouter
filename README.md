@@ -58,7 +58,7 @@ POST /chat/completions
 
 ```bash
 curl https://weizerouter.web.id/v1/chat/completions \
-  -H "Authorization: Bearer YOUR_W...EY" \
+  -H "Authorization: Bearer YOUR_WEIZEROUTER_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
     "model": "wz/gpt-5.5",
