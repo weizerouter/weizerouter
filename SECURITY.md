@@ -1,31 +1,9 @@
 # Security Policy
 
-WeizeRouter takes security seriously.
+## Supported Versions
 
-This public repository is documentation-only and does not contain production secrets.
+We actively support and patch the current major version of WeizeRouter. Please ensure you are running the latest release.
 
-Do not expose:
+## Reporting a Vulnerability
 
-- API keys
-- Telegram bot tokens
-- payment provider API keys
-- database files
-- private server credentials
-- .env files
-- real user logs
-- private SSH keys
-
-## Reporting Security Issues
-
-For security concerns, contact the WeizeRouter admin.
-
-## Public Repository Scope
-
-This repository is intended for:
-
-- project overview
-- public documentation
-- architecture explanation
-- portfolio and branding
-
-Production implementation details are kept private.
+If you discover a security vulnerability, please do not report it publicly on GitHub. Instead, send an email to `security@weizerouter.io` with a detailed description of the issue and steps to reproduce. We aim to respond within 48 hours and provide a patch as soon as possible.
