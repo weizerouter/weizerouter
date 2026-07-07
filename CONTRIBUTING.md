@@ -1,19 +1,24 @@
-# Contributing
+# Contributing to WeizeRouter
 
-WeizeRouter is currently maintained privately.
+First off, thank you for showing interest in contributing to WeizeRouter! We welcome contributions to our documentation, sample code, and configuration scripts.
 
-This public repository is used for documentation, branding, and project overview.
+## Code of Conduct
 
-## Suggestions
+This project and everyone participating in it is governed by our project code of conduct. By participating, you are expected to uphold this code.
 
-Suggestions are welcome for:
+## How Can I Contribute?
 
-- documentation improvements
-- API usage examples
-- architecture explanations
-- security best practices
-- product ideas
+### Reporting Bugs
 
-## Not Included
+If you find a bug in the documentation or sample scripts, please search the issue tracker to see if it has already been reported. If not, please open a new issue with a clear description and steps to reproduce.
 
-This repository does not include production code, private infrastructure, database files, or credentials.
+### Suggesting Enhancements
+
+Enhancement suggestions are welcome. Please open an issue to discuss your ideas before writing any code.
+
+### Pull Requests
+
+- Fork the repository.
+- Create a new branch for your changes.
+- Ensure your changes follow the existing style and conventions.
+- Open a pull request against the `main` branch.
