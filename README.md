@@ -24,7 +24,7 @@ Engineered with a **Dual-Engine Smart Architecture** (high-throughput Go-Engine 
 - 🟢 **100% Permanent Token Balance:** Wallets never expire. Use your tokens whenever you code—today, next month, or next year.
 - 💎 **Lowest Official Pricing (Mentok Terendah):** Flat **Rp65 / 1 Juta Token** for the Regular Ecosystem.
 - ♾️ **1 Million Context Window:** Full long-context coding marathons without truncating large repositories.
-- ⚡ **Zero-Cooldown Concurrency:** Powered by 17+ Google Antigravity engines, 66+ Grok swarms, and 3 independent ChatGPT Team workspaces.
+- ⚡ **Zero-Cooldown Concurrency:** Powered by multi-provider redundant infrastructure, automatic load balancing, and high-capacity upstream pipelines.
 - 💳 **Instant Automated QRIS:** Powered by Pakasir. Scan, pay, and your API key balance is credited in milliseconds.
 
 ---
@@ -50,7 +50,7 @@ WeizeRouter features two strictly separated, high-performance computing tiers:
 | Model Identifier | Context Window | Architecture / Strengths | Multiplier |
 | :--- | :---: | :--- | :---: |
 | `wz/muse-spark-1.3-contributor` | **1,000,000 Tokens** | ♾️ **1M Context King.** Ultra-fast full-repo refactoring & multimodal. | `×2.3` |
-| `wz/gemini-3.8-flash-high` | 128,000 Tokens | ⚡ **IDE Workhorse.** Backed by 17 Google accounts. Ultra-low latency. | `×2.3` |
+| `wz/gemini-3.8-flash-high` | 128,000 Tokens | ⚡ **IDE Workhorse.** High-throughput, ultra-low latency for inline completions. | `×2.3` |
 | `wz/gemini-3.8-flash` | 128,000 Tokens | 🚀 Fast autocomplete & real-time chat completions. | `×1.6` |
 | `wz/grok-4.5` | 128,000 Tokens | 🧠 High-velocity coding & debugging with objective tone. | `×3.5` |
 | `wz/grok-4.6` | 128,000 Tokens | 🔬 Deep multi-step reasoning & complex architecture analysis. | `×5.0` |
@@ -66,11 +66,11 @@ WeizeRouter features two strictly separated, high-performance computing tiers:
 
 | Premium Model | Backend Fleet | Capabilities | Multiplier |
 | :--- | :--- | :--- | :---: |
-| `cx/gpt-6-astra` | ChatGPT Team Frontier | Absolute state-of-the-art coding, architecture, and synthesis. | `×15` |
-| `cx/gpt-5.6-sol` | Codex Multi-Workspace | Flagship frontier code intelligence & complex system design. | `×10` |
-| `cx/gpt-5.6-luna` | Codex Multi-Workspace | High-speed frontier coding with deep contextual understanding. | `×4` |
-| `ag/claude-opus-4-6-thinking` | Antigravity VIP | Deepest reasoning, formal verification, and philosophical depth. | `×7` |
-| `ag/claude-sonnet-4-6` | Antigravity VIP | Peak software engineering and balanced frontier speed. | `×5` |
+| `cx/gpt-6-astra` | Frontier Flagship | Absolute state-of-the-art coding, architecture, and synthesis. | `×15` |
+| `cx/gpt-5.6-sol` | Frontier Code | Flagship frontier code intelligence & complex system design. | `×10` |
+| `cx/gpt-5.6-luna` | Frontier Code | High-speed frontier coding with deep contextual understanding. | `×4` |
+| `ag/claude-opus-4-6-thinking` | Frontier Reasoning | Deepest reasoning, formal verification, and philosophical depth. | `×7` |
+| `ag/claude-sonnet-4-6` | Frontier Software | Peak software engineering and balanced frontier speed. | `×5` |
 
 ---
 
@@ -239,7 +239,7 @@ WeizeRouter returns standardized HTTP status codes and JSON error objects:
 
 WeizeRouter is designed, engineered, and operated independently by **Wang Weize** (汪 / *Ong*), dedicated to empowering Indonesian and global developers with high-availability, zero-bullshit, enterprise AI infrastructure.
 
-- **Infrastructure Core:** Ubuntu Linux VPS • Dual 9Router • Go-Engine Fast Proxy • Pakasir Automated Settlement.
+- **Infrastructure Core:** Dedicated Cloud Nodes • Intelligent Load Balancer • Fast Stream Proxy • Pakasir Automated Settlement.
 - **Sovereign Authority:** Wang Weize ([@wangweize4](https://t.me/wangweize4)).
 - **License:** Open documentation licensed under the [MIT License](LICENSE).
 
