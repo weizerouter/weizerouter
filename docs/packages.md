@@ -40,9 +40,24 @@ Untuk kebutuhan tim rekayasa perangkat lunak berskala besar yang membutuhkan mod
   - `ag/claude-opus-4-6-thinking` (Multiplier ×7)
   - `ag/claude-sonnet-4-6` (Multiplier ×5)
 - **Arsitektur:** Disokong oleh 3 Workspace ChatGPT Team independen dan klaster Antigravity VIP.
-- **Pilihan Paket:**
-  - **Weize Premium 100M:** Rp150.000 (Slot terbatas)
-  - **Weize Premium 200M:** Rp280.000 (Slot terbatas)
+- **Pilihan Paket Resmi:**
+  - **Weize Premium 100M:** **Rp20.000** (500 RPM, Model VIP)
+  - **Weize Premium 200M:** **Rp38.000** (500 RPM, Model VIP)
+
+---
+
+## ⚡ Perbandingan Kapasitas Request: WeizeRouter vs Official Subscription
+
+Bosan kena tulisan *"You've reached your limit. Try again in 3 hours"* di ChatGPT Plus atau Claude Pro? WeizeRouter dirancang untuk developer dan tim yang butuh performa tanpa henti.
+
+| Parameter | Langganan Resmi (ChatGPT Plus / Claude Pro) | WeizeRouter Regular Ecosystem | 👑 Weize Premium VIP |
+| :--- | :---: | :---: | :---: |
+| **Batas Request Harian** | ~300 - 500 req/hari *(ketat)* | **Ribuan req/hari** *(bebas)* | 🔥 **720.000 req/hari** *(Dedicated 500 RPM)* |
+| **Batas Request Bulanan** | ~2.000 - 5.000 req/bulan | **Puluhan ribu req/bulan** | 🚀 **21.600.000 req/bulan** (**10.000× Lipat!**) |
+| **Batas Konkurensi (RPM)** | 3 - 5 RPM *(mudah throttling)* | Rate limit adaptif | ⚡ **500 RPM Ultra-High Concurrency** |
+| **Masa Aktif Saldo** | Hangus tiap 30 hari | 🟢 **100% Permanen Tanpa Expired** | 🟢 **Permanen** |
+| **Biaya Bulanan** | Rp350.000+ ($20/bulan) flat | Mulai **Rp650** (Paket Mini 10M) | Mulai **Rp20.000** (Paket 100M) |
+| **Pilihan Model** | Hanya model milik satu vendor | 10+ Model (Gemini, Grok, GLM, Qwen, DeepSeek) | Frontier Elite (GPT-6 Astra, Opus 4.6, Sol) |
 
 ---
 

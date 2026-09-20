@@ -47,12 +47,13 @@
 
     <!-- Features -->
     <g transform="translate(20, 134)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">
-      <text x="0" y="0" fill="#cbd5e1">✦ <tspan font-weight="600">Model Flagship:</tspan> Muse Spark 1.3 (1M Context),</text>
-      <text x="14" y="18" fill="#94a3b8">Gemini 3.8 Flash High, Grok 4.5/4.6, DeepSeek V4.1</text>
-      <text x="0" y="44" fill="#cbd5e1">✦ <tspan font-weight="600">Paket Bot &amp; Web:</tspan></text>
-      <text x="14" y="62" fill="#e2e8f0">• Mini 10M: <tspan fill="#38bdf8">Rp650</tspan> | Pro 100M: <tspan fill="#38bdf8">Rp6.500</tspan></text>
-      <text x="14" y="80" fill="#e2e8f0">• Ultimate 200M: <tspan fill="#38bdf8">Rp13.000</tspan> | Billion 1B: <tspan fill="#38bdf8">Rp65.000</tspan></text>
-      <text x="0" y="106" fill="#f59e0b">⚠️ Batas harga terendah resmi (Mentok &amp; Gak Turun Lagi)</text>
+      <text x="0" y="0" fill="#cbd5e1">✦ <tspan font-weight="600">Model Flagship:</tspan> Muse Spark 1.3 (1M), Gemini 3.8,</text>
+      <text x="14" y="18" fill="#94a3b8">Grok 4.5/4.6, GLM 5.3, Qwen 3.8 Max, DeepSeek V4.1</text>
+      <text x="0" y="42" fill="#cbd5e1">✦ <tspan font-weight="600">Kapasitas:</tspan> Ribuan request/hari bebas antri</text>
+      <text x="0" y="64" fill="#cbd5e1">✦ <tspan font-weight="600">Paket Bot &amp; Web:</tspan></text>
+      <text x="14" y="82" fill="#e2e8f0">• Mini 10M: <tspan fill="#38bdf8">Rp650</tspan> | Pro 100M: <tspan fill="#38bdf8">Rp6.500</tspan></text>
+      <text x="14" y="100" fill="#e2e8f0">• Ultimate 200M: <tspan fill="#38bdf8">Rp13.000</tspan> | Billion 1B: <tspan fill="#38bdf8">Rp65.000</tspan></text>
+      <text x="0" y="124" fill="#f59e0b">⚠️ Batas harga terendah resmi (Mentok &amp; Gak Turun Lagi)</text>
     </g>
   </g>
 
@@ -66,19 +67,19 @@
 
     <!-- Price Header -->
     <text x="20" y="78" fill="#fbbf24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="900">Frontier VIP <tspan font-size="14" fill="#94a3b8" font-weight="500">Tier</tspan></text>
-    <text x="20" y="98" fill="#ec4899" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700">🚀 500 RPM ULTRA-HIGH CONCURRENCY</text>
+    <text x="20" y="98" fill="#ec4899" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700">🚀 500 RPM · 10.000× LIPAT KAPASITAS RESMI</text>
 
     <!-- Divider -->
     <line x1="20" y1="112" x2="365" y2="112" stroke="#1e293b" stroke-width="1"/>
 
     <!-- Features -->
     <g transform="translate(20, 134)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">
-      <text x="0" y="0" fill="#cbd5e1">✦ <tspan font-weight="600">Model Kasta Tertinggi:</tspan></text>
-      <text x="14" y="18" fill="#fde68a">• cx/gpt-6-astra &amp; cx/gpt-5.6-sol</text>
-      <text x="14" y="36" fill="#fde68a">• ag/claude-opus-4-6-thinking &amp; ag/claude-sonnet-4-6</text>
-      <text x="0" y="62" fill="#cbd5e1">✦ <tspan font-weight="600">Arsitektur:</tspan> 3 Workspace ChatGPT Team Independen</text>
-      <text x="0" y="84" fill="#cbd5e1">✦ <tspan font-weight="600">Paket Khusus:</tspan> 100M (Rp150k) &amp; 200M (Rp280k)</text>
-      <text x="0" y="106" fill="#10b981">✨ Slot Terbatas &amp; Eksklusif via Admin Approval</text>
+      <text x="0" y="0" fill="#cbd5e1">✦ <tspan font-weight="600">Model Monster:</tspan> cx/gpt-6-astra, cx/gpt-5.6-sol,</text>
+      <text x="14" y="18" fill="#fde68a">ag/claude-opus-4-6-thinking, ag/claude-sonnet-4-6</text>
+      <text x="0" y="42" fill="#cbd5e1">✦ <tspan font-weight="600">Daya Tempur:</tspan> <tspan fill="#ec4899" font-weight="700">720.000 req/hari</tspan> · <tspan fill="#ec4899" font-weight="700">21.6M req/bulan</tspan></text>
+      <text x="0" y="64" fill="#cbd5e1">✦ <tspan font-weight="600">Arsitektur:</tspan> 3 Dedicated Workspace Team Fleet</text>
+      <text x="0" y="86" fill="#cbd5e1">✦ <tspan font-weight="600">Paket Resmi:</tspan> 100M (<tspan fill="#fbbf24">Rp20.000</tspan>) &amp; 200M (<tspan fill="#fbbf24">Rp38.000</tspan>)</text>
+      <text x="0" y="112" fill="#10b981">✨ Tanpa Limit Cooldown · Slot Eksklusif</text>
     </g>
   </g>
 </svg>

@@ -96,6 +96,27 @@ WeizeRouter features two strictly separated, high-performance computing tiers:
 | 🏛️ **Enterprise** | **2.000.000.000 (2B)** | **Rp130.000** | 🟢 Permanen | Seluruh Model Reguler |
 | ⚙️ **Custom Token** | *Sesuai Kebutuhan* | **Rp65 / 1 Juta** | 🟢 Permanen | Atur jumlah via bot |
 
+### 👑 Weize Premium VIP Packages (500 RPM Dedicated Concurrency)
+| Paket Premium | Saldo Token | Harga Resmi (IDR) | Rate Limit (RPM) | Model Akses |
+| :--- | :---: | :---: | :---: | :--- |
+| 💎 **Premium 100M** | **100.000.000 (100M)** | **Rp20.000** | 🚀 500 RPM | Frontier VIP (`cx/*`, `ag/*`) |
+| 👑 **Premium 200M** | **200.000.000 (200M)** | **Rp38.000** | 🚀 500 RPM | Frontier VIP (`cx/*`, `ag/*`) |
+
+---
+
+## ⚡ Perbandingan Kapasitas: WeizeRouter vs Official (ChatGPT Plus / Claude Pro)
+
+Bosan dengan tulisan *"You've reached your usage limit. Try again in 3 hours"*? WeizeRouter memberikan kapasitas riil tanpa drama throttling.
+
+| Parameter | Langganan Resmi (ChatGPT Plus / Claude Pro) | WeizeRouter Regular | 👑 Weize Premium VIP |
+| :--- | :---: | :---: | :---: |
+| **Kapasitas Request Harian** | ~300 - 500 req/hari *(dibatasi ketat)* | **Ribuan req/hari** *(bebas)* | 🔥 **720.000 req/hari** *(Dedicated 500 RPM)* |
+| **Kapasitas Request Bulanan** | ~2.000 - 5.000 req/bulan | **Puluhan ribu req/bulan** | 🚀 **21.600.000 req/bulan** (**10.000× Lipat!**) |
+| **Batas Konkurensi** | 3 - 5 RPM *(mudah kena limit)* | Dinamis & Responsif | ⚡ **500 RPM Ultra Concurrency** |
+| **Masa Aktif Saldo** | Hangus tiap 30 hari | 🟢 **100% Permanen Tanpa Expired** | 🟢 **Permanen** |
+| **Biaya Bulanan** | Rp350.000+ ($20/bulan) flat | Mulai **Rp650** (Mini 10M) | Mulai **Rp20.000** (Premium 100M) |
+| **Pilihan Model** | Terkunci di 1 ekosistem | 10+ Model (Gemini, Grok, GLM, Qwen) | Frontier VIP (GPT-6 Astra, Opus 4.6, Sol) |
+
 ---
 
 ## 🖥️ Live Terminal Telemetry
