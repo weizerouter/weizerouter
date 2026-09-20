@@ -36,12 +36,12 @@ Exclusive frontier tier running on dedicated high-performance clusters with **50
 
 | Model Identifier | Backend Engine | Strengths & Capabilities | Multiplier |
 | :--- | :--- | :--- | :---: |
-| `cx/gpt-6-astra` | ChatGPT Team Frontier | Sovereign-tier software architecture and complex multi-file engineering. | `×15` |
-| `cx/gpt-5.6-sol` | Codex Multi-Workspace | High-accuracy code generation, deep refactoring, and AST manipulation. | `×10` |
-| `cx/gpt-5.6-terra` | Codex Multi-Workspace | High-throughput system programming and compiler optimization. | `×8` |
-| `cx/gpt-5.6-luna` | Codex Multi-Workspace | Ultra-fast frontier coding with low latency and high precision. | `×4` |
-| `ag/claude-opus-4-6-thinking` | Antigravity VIP | Deep philosophical depth, formal verification, and subtle edge-case detection. | `×7` |
-| `ag/claude-sonnet-4-6` | Antigravity VIP | Balanced frontier coding, API design, and rapid technical documentation. | `×5` |
+| `cx/gpt-6-astra` | Frontier Flagship | Sovereign-tier software architecture and complex multi-file engineering. | `×15` |
+| `cx/gpt-5.6-sol` | Frontier Code | High-accuracy code generation, deep refactoring, and AST manipulation. | `×10` |
+| `cx/gpt-5.6-terra` | Frontier Code | High-throughput system programming and compiler optimization. | `×8` |
+| `cx/gpt-5.6-luna` | Frontier Code | Ultra-fast frontier coding with low latency and high precision. | `×4` |
+| `ag/claude-opus-4-6-thinking` | Frontier Reasoning | Deep philosophical depth, formal verification, and subtle edge-case detection. | `×7` |
+| `ag/claude-sonnet-4-6` | Frontier Software | Balanced frontier coding, API design, and rapid technical documentation. | `×5` |
 
 ---
 
