@@ -1,18 +1,84 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="100%">
-  <rect width="800" height="400" fill="#0d1117" rx="15" />
-  <text x="40" y="50" fill="#f0f6fc" font-family="monospace" font-size="24" font-weight="bold">WeizeRouter Pricing Packages</text>
-  <rect x="40" y="80" width="340" height="280" rx="10" fill="#161b22" stroke="#30363d" stroke-width="2" />
-  <text x="60" y="120" fill="#58a6ff" font-family="sans-serif" font-size="20" font-weight="bold">Starter Pack</text>
-  <text x="60" y="150" fill="#8b949e" font-family="sans-serif" font-size="14">Best for individual developers</text>
-  <text x="60" y="200" fill="#f0f6fc" font-family="sans-serif" font-size="28" font-weight="bold">Free Trial</text>
-  <text x="60" y="240" fill="#8b949e" font-family="sans-serif" font-size="14">2 Core Models (GPT-4o, Claude Instant)</text>
-  <text x="60" y="270" fill="#8b949e" font-family="sans-serif" font-size="14">Basic Rate Limits</text>
-  <text x="60" y="300" fill="#8b949e" font-family="sans-serif" font-size="14">Community Support</text>
-  <rect x="420" y="80" width="340" height="280" rx="10" fill="#161b22" stroke="#d29922" stroke-width="2" />
-  <text x="440" y="120" fill="#d29922" font-family="sans-serif" font-size="20" font-weight="bold">Professional Pack</text>
-  <text x="440" y="150" fill="#8b949e" font-family="sans-serif" font-size="14">For heavy production usage</text>
-  <text x="440" y="200" fill="#f0f6fc" font-family="sans-serif" font-size="28" font-weight="bold">Pay-as-you-go</text>
-  <text x="440" y="240" fill="#8b949e" font-family="sans-serif" font-size="14">Unlimited Models (including Claude 3.5 Sonnet)</text>
-  <text x="440" y="270" fill="#8b949e" font-family="sans-serif" font-size="14">Ultra-High Quotas</text>
-  <text x="440" y="300" fill="#8b949e" font-family="sans-serif" font-size="14">Dedicated Priority Routing</text>
+<svg width="880" height="420" viewBox="0 0 880 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c101a"/>
+      <stop offset="100%" stop-color="#070a12"/>
+    </linearGradient>
+
+    <linearGradient id="regBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+
+    <linearGradient id="premBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="50%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Container Base -->
+  <rect width="880" height="420" rx="16" fill="#05070d"/>
+
+  <!-- Title Header -->
+  <g transform="translate(36, 40)">
+    <text x="0" y="0" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.5">WeizeRouter Official Token Tiers</text>
+    <text x="0" y="24" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">Transparent pricing, 100% permanent wallet balance without expiration, and instant QRIS activation.</text>
+  </g>
+
+  <!-- Card 1: Regular Ecosystem (Permanent Token) -->
+  <g transform="translate(36, 90)" filter="url(#softShadow)">
+    <rect width="385" height="290" rx="12" fill="url(#cardBg)" stroke="url(#regBorder)" stroke-width="1.5"/>
+    
+    <!-- Badge -->
+    <rect x="20" y="20" width="130" height="24" rx="12" fill="#0c2338" stroke="#0284c7" stroke-width="1"/>
+    <text x="85" y="36" text-anchor="middle" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700">REGULAR ECOSYSTEM</text>
+
+    <!-- Price Header -->
+    <text x="20" y="78" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="900">Rp65 <tspan font-size="14" fill="#94a3b8" font-weight="500">/ 1 Juta Token</tspan></text>
+    <text x="20" y="98" fill="#10b981" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700">🟢 100% SALDO PERMANEN (TANPA EXPIRED)</text>
+
+    <!-- Divider -->
+    <line x1="20" y1="112" x2="365" y2="112" stroke="#1e293b" stroke-width="1"/>
+
+    <!-- Features -->
+    <g transform="translate(20, 134)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">
+      <text x="0" y="0" fill="#cbd5e1">✦ <tspan font-weight="600">Model Flagship:</tspan> Muse Spark 1.3 (1M Context),</text>
+      <text x="14" y="18" fill="#94a3b8">Gemini 3.8 Flash High, Grok 4.5/4.6, DeepSeek V4.1</text>
+      <text x="0" y="44" fill="#cbd5e1">✦ <tspan font-weight="600">Paket Bot &amp; Web:</tspan></text>
+      <text x="14" y="62" fill="#e2e8f0">• Mini 10M: <tspan fill="#38bdf8">Rp650</tspan> | Pro 100M: <tspan fill="#38bdf8">Rp6.500</tspan></text>
+      <text x="14" y="80" fill="#e2e8f0">• Ultimate 200M: <tspan fill="#38bdf8">Rp13.000</tspan> | Billion 1B: <tspan fill="#38bdf8">Rp65.000</tspan></text>
+      <text x="0" y="106" fill="#f59e0b">⚠️ Batas harga terendah resmi (Mentok &amp; Gak Turun Lagi)</text>
+    </g>
+  </g>
+
+  <!-- Card 2: Weize Premium VIP -->
+  <g transform="translate(459, 90)" filter="url(#softShadow)">
+    <rect width="385" height="290" rx="12" fill="url(#cardBg)" stroke="url(#premBorder)" stroke-width="1.5"/>
+    
+    <!-- Badge -->
+    <rect x="20" y="20" width="145" height="24" rx="12" fill="#2d1804" stroke="#d97706" stroke-width="1"/>
+    <text x="92" y="36" text-anchor="middle" fill="#fbbf24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700">👑 WEIZE PREMIUM VIP</text>
+
+    <!-- Price Header -->
+    <text x="20" y="78" fill="#fbbf24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="900">Frontier VIP <tspan font-size="14" fill="#94a3b8" font-weight="500">Tier</tspan></text>
+    <text x="20" y="98" fill="#ec4899" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700">🚀 500 RPM ULTRA-HIGH CONCURRENCY</text>
+
+    <!-- Divider -->
+    <line x1="20" y1="112" x2="365" y2="112" stroke="#1e293b" stroke-width="1"/>
+
+    <!-- Features -->
+    <g transform="translate(20, 134)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">
+      <text x="0" y="0" fill="#cbd5e1">✦ <tspan font-weight="600">Model Kasta Tertinggi:</tspan></text>
+      <text x="14" y="18" fill="#fde68a">• cx/gpt-6-astra &amp; cx/gpt-5.6-sol</text>
+      <text x="14" y="36" fill="#fde68a">• ag/claude-opus-4-6-thinking &amp; ag/claude-sonnet-4-6</text>
+      <text x="0" y="62" fill="#cbd5e1">✦ <tspan font-weight="600">Arsitektur:</tspan> 3 Workspace ChatGPT Team Independen</text>
+      <text x="0" y="84" fill="#cbd5e1">✦ <tspan font-weight="600">Paket Khusus:</tspan> 100M (Rp150k) &amp; 200M (Rp280k)</text>
+      <text x="0" y="106" fill="#10b981">✨ Slot Terbatas &amp; Eksklusif via Admin Approval</text>
+    </g>
+  </g>
 </svg>

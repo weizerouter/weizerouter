@@ -1,14 +1,149 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="100%">
-  <rect width="800" height="400" fill="#0d1117" rx="15" />
-  <circle cx="30" cy="30" r="8" fill="#ff5f56" />
-  <circle cx="55" cy="30" r="8" fill="#ffbd2e" />
-  <circle cx="80" cy="30" r="8" fill="#27c93f" />
-  <text x="40" y="80" fill="#8b949e" font-family="monospace" font-size="14">$ curl -X POST https://api.weizerouter.io/v1/chat/completions</text>
-  <text x="40" y="100" fill="#8b949e" font-family="monospace" font-size="14">    -H "Authorization: Bearer wr-xxxxxx"</text>
-  <text x="40" y="160" fill="#58a6ff" font-family="monospace" font-size="14">HTTP/1.1 200 OK</text>
-  <text x="40" y="210" fill="#39d353" font-family="monospace" font-size="14">{</text>
-  <text x="40" y="230" fill="#39d353" font-family="monospace" font-size="14">  "id": "wr-chat-8f23c1",</text>
-  <text x="40" y="250" fill="#39d353" font-family="monospace" font-size="14">  "choices": [{ "message": { "content": "Hi! How can I help?" } }],</text>
-  <text x="40" y="270" fill="#39d353" font-family="monospace" font-size="14">  "usage": { "total_tokens": 22 }</text>
-  <text x="40" y="290" fill="#39d353" font-family="monospace" font-size="14">}</text>
+<svg width="880" height="420" viewBox="0 0 880 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="100%" stop-color="#060911"/>
+    </linearGradient>
+
+    <linearGradient id="termBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <style>
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes fadeIn1 {
+        0%, 15% { opacity: 0; transform: translateY(4px); }
+        25%, 100% { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes fadeIn2 {
+        0%, 45% { opacity: 0; transform: translateY(4px); }
+        55%, 100% { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes fadeIn3 {
+        0%, 70% { opacity: 0; transform: translateY(4px); }
+        80%, 100% { opacity: 1; transform: translateY(0); }
+      }
+      .cursor-blink {
+        animation: blink 1s infinite;
+      }
+      .line-req {
+        animation: fadeIn1 10s ease-in-out infinite;
+      }
+      .line-resp-header {
+        animation: fadeIn2 10s ease-in-out infinite;
+      }
+      .line-resp-body {
+        animation: fadeIn3 10s ease-in-out infinite;
+      }
+      .font-mono {
+        font-family: 'JetBrains Mono', 'Fira Code', Menlo, Monaco, Consolas, monospace;
+        font-size: 12.5px;
+      }
+    </style>
+  </defs>
+
+  <!-- Terminal Window Outer Frame -->
+  <rect width="880" height="420" rx="14" fill="url(#termBg)"/>
+  <rect width="878" height="418" x="1" y="1" rx="13" fill="none" stroke="url(#termBorder)" stroke-width="1.5"/>
+
+  <!-- Title Bar -->
+  <rect width="880" height="38" rx="14" fill="#131b2e"/>
+  <rect y="24" width="880" height="14" fill="#131b2e"/>
+  <line x1="0" y1="38" x2="880" y2="38" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Window Controls (macOS Traffic Lights) -->
+  <circle cx="22" cy="19" r="6" fill="#ef4444"/>
+  <circle cx="42" cy="19" r="6" fill="#f59e0b"/>
+  <circle cx="62" cy="19" r="6" fill="#10b981"/>
+
+  <!-- Window Title -->
+  <text x="440" y="23" text-anchor="middle" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600">developer@weizerouter-edge ~ curl -v /v1/chat/completions (HTTP/2)</text>
+
+  <!-- Terminal Body Content -->
+  <g transform="translate(24, 62)">
+    <!-- Command Prompt -->
+    <g class="line-req">
+      <text class="font-mono" x="0" y="0">
+        <tspan fill="#10b981" font-weight="bold">➜ </tspan>
+        <tspan fill="#38bdf8" font-weight="bold">~ </tspan>
+        <tspan fill="#f1f5f9">curl -sS https://weizerouter.web.id/v1/chat/completions \</tspan>
+      </text>
+      <text class="font-mono" x="20" y="20">
+        <tspan fill="#64748b">  -H </tspan>
+        <tspan fill="#f59e0b">"Authorization: Bearer wzr-live-key-***"</tspan>
+        <tspan fill="#64748b"> \</tspan>
+      </text>
+      <text class="font-mono" x="20" y="40">
+        <tspan fill="#64748b">  -H </tspan>
+        <tspan fill="#f59e0b">"Content-Type: application/json"</tspan>
+        <tspan fill="#64748b"> \</tspan>
+      </text>
+      <text class="font-mono" x="20" y="60">
+        <tspan fill="#64748b">  -d </tspan>
+        <tspan fill="#c084fc">'{ "model": "wz/muse-spark-1.3-contributor", "messages": [{"role":"user","content":"Optimize AST"}], "stream": true }'</tspan>
+      </text>
+    </g>
+
+    <!-- Response Headers -->
+    <g class="line-resp-header" transform="translate(0, 96)">
+      <rect width="832" height="26" rx="5" fill="#0f172a" fill-opacity="0.8" stroke="#1e293b"/>
+      <text class="font-mono" x="12" y="17">
+        <tspan fill="#10b981" font-weight="bold">HTTP/2 200 OK </tspan>
+        <tspan fill="#64748b">| </tspan>
+        <tspan fill="#38bdf8">x-weize-engine: </tspan><tspan fill="#e2e8f0">go-fast-proxy/1.0 </tspan>
+        <tspan fill="#64748b">| </tspan>
+        <tspan fill="#f59e0b">ttft: </tspan><tspan fill="#e2e8f0">214ms </tspan>
+        <tspan fill="#64748b">| </tspan>
+        <tspan fill="#a855f7">rate: </tspan><tspan fill="#e2e8f0">Rp65/1M (Permanent)</tspan>
+      </text>
+    </g>
+
+    <!-- SSE Streaming Chunks Output -->
+    <g class="line-resp-body" transform="translate(0, 140)">
+      <text class="font-mono" x="0" y="0">
+        <tspan fill="#64748b">data: </tspan>
+        <tspan fill="#94a3b8">{"id":"chatcmpl-wz9801","model":"muse-spark-1.3","choices":[{"delta":{"content":"function"}}],"created":1789901720}</tspan>
+      </text>
+      <text class="font-mono" x="0" y="20">
+        <tspan fill="#64748b">data: </tspan>
+        <tspan fill="#94a3b8">{"id":"chatcmpl-wz9801","model":"muse-spark-1.3","choices":[{"delta":{"content":" transformTree(node)"}}],"created":1789901720}</tspan>
+      </text>
+      <text class="font-mono" x="0" y="40">
+        <tspan fill="#64748b">data: </tspan>
+        <tspan fill="#38bdf8" font-weight="bold">{"id":"chatcmpl-wz9801","choices":[{"delta":{},"finish_reason":"stop"}]}</tspan>
+      </text>
+      <text class="font-mono" x="0" y="60">
+        <tspan fill="#34d399">data: [DONE]</tspan>
+      </text>
+
+      <!-- Telemetry Box -->
+      <g transform="translate(0, 85)">
+        <rect width="832" height="74" rx="8" fill="#090d16" stroke="#1e293b"/>
+        <text class="font-mono" x="16" y="22" fill="#e2e8f0" font-weight="bold">📊 Execution Summary &amp; Wallet Telemetry:</text>
+        <text class="font-mono" x="16" y="44">
+          <tspan fill="#64748b">• Model: </tspan><tspan fill="#38bdf8">wz/muse-spark-1.3-contributor (1M Context)</tspan>
+          <tspan fill="#64748b">  • Latency: </tspan><tspan fill="#10b981">1.82s Total</tspan>
+          <tspan fill="#64748b">  • Tokens: </tspan><tspan fill="#f59e0b">2,410 tokens</tspan>
+        </text>
+        <text class="font-mono" x="16" y="62">
+          <tspan fill="#64748b">• Wallet Debit: </tspan><tspan fill="#a855f7">5,543 wallet tokens</tspan>
+          <tspan fill="#64748b">  • Sisa Saldo: </tspan><tspan fill="#34d399">🟢 1,442,641,132 (Permanen Tanpa Expired)</tspan>
+        </text>
+      </g>
+
+      <!-- Next Prompt with Blinking Cursor -->
+      <g transform="translate(0, 185)">
+        <text class="font-mono" x="0" y="0">
+          <tspan fill="#10b981" font-weight="bold">➜ </tspan>
+          <tspan fill="#38bdf8" font-weight="bold">~ </tspan>
+        </text>
+        <rect class="cursor-blink" x="24" y="-12" width="8" height="15" fill="#38bdf8"/>
+      </g>
+    </g>
+  </g>
 </svg>

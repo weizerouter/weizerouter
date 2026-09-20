@@ -1,212 +1,227 @@
-![WeizeRouter Banner](assets/weizerouter-banner.svg)
+<p align="center">
+  <img src="assets/weizerouter-banner.svg" alt="WeizeRouter Banner" width="100%" />
+</p>
 
-# WeizeRouter
+<p align="center">
+  <a href="https://weizerouter.web.id/"><img src="https://img.shields.io/badge/Status-100%25%20Live%20Operational-brightgreen?style=for-the-badge&logo=statuspage&logoColor=white" alt="Live Status"></a>
+  <a href="https://weizerouter.web.id/v1"><img src="https://img.shields.io/badge/API-OpenAI%20Compatible%20v1-38bdf8?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI Compatible"></a>
+  <a href="#official-pricing-matrix"><img src="https://img.shields.io/badge/Tarif%20Resmi-Rp65%20%2F%201M%20Token-f59e0b?style=for-the-badge&logo=cashapp&logoColor=white" alt="Rate Rp65/1M"></a>
+  <a href="#flagship-models-matrix"><img src="https://img.shields.io/badge/Context%20Window-Up%20to%201M%20Tokens-a855f7?style=for-the-badge&logo=speedtest&logoColor=white" alt="1M Context"></a>
+  <a href="#core-features"><img src="https://img.shields.io/badge/Saldo%20Token-100%25%20Permanen%20(No%20Expiry)-10b981?style=for-the-badge&logo=blockchaindotcom&logoColor=white" alt="Permanent Balance"></a>
+  <a href="https://t.me/WeizeRouterBot"><img src="https://img.shields.io/badge/Telegram%20Bot-%40WeizeRouterBot-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Bot"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-gray?style=for-the-badge" alt="MIT License"></a>
+</p>
 
-![Live](https://img.shields.io/badge/Status-Live-brightgreen?style=flat-square) ![OpenAI Compatible](https://img.shields.io/badge/API-OpenAI%20Compatible-412991?style=flat-square) ![QRIS Pakasir](https://img.shields.io/badge/QRIS-Pakasir-orange?style=flat-square) ![Telegram Bot](https://img.shields.io/badge/Telegram-Bot-26A5E4?style=flat-square) ![Public Beta](https://img.shields.io/badge/Public-Beta-blue?style=flat-square) ![Built in Indonesia](https://img.shields.io/badge/Built%20in-Indonesia-red?style=flat-square) ![MIT License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
+---
 
-**AI API Gateway, Telegram Bot Ordering, QRIS/Pakasir Payment Automation, and OpenAI-Compatible Multi-Model Access.**
+## ⚡ Overview
 
-WeizeRouter provides multi-model AI access through a unified OpenAI-compatible API endpoint. Users can order packages through Telegram, pay with QRIS via Pakasir, receive instant API key activation, and use supported models based on their active package.
+**WeizeRouter** is an enterprise-grade, high-performance AI API Gateway and developer platform designed to make cutting-edge Large Language Models (LLMs) effortlessly accessible, ultra-reliable, and cost-efficient. 
 
-Telegram Bot is the primary stable ordering channel. The website platform is available and being improved to stay in sync with the bot package system. The official API base URL is:
+Engineered with a **Dual-Engine Smart Architecture** (high-throughput Go-Engine proxy combined with dual resilient 9Router balancers), WeizeRouter unifies frontier AI models—from **Meta Muse Spark 1.3** with **1 Million Context Window** to **Claude Opus 4.6 Thinking**, **GPT-6 Astra**, and **Gemini 3.8 Flash High**—into a single standard **OpenAI-compatible `/v1/chat/completions`** endpoint.
 
-```text
-https://weizerouter.web.id/v1
+### 🌟 Why Developers Choose WeizeRouter:
+- 🟢 **100% Permanent Token Balance:** Wallets never expire. Use your tokens whenever you code—today, next month, or next year.
+- 💎 **Lowest Official Pricing (Mentok Terendah):** Flat **Rp65 / 1 Juta Token** for the Regular Ecosystem.
+- ♾️ **1 Million Context Window:** Full long-context coding marathons without truncating large repositories.
+- ⚡ **Zero-Cooldown Concurrency:** Powered by 17+ Google Antigravity engines, 66+ Grok swarms, and 3 independent ChatGPT Team workspaces.
+- 💳 **Instant Automated QRIS:** Powered by Pakasir. Scan, pay, and your API key balance is credited in milliseconds.
+
+---
+
+## 🔗 Quick Links & Ecosystem
+
+| Destination | Resource URL | Description |
+| :--- | :--- | :--- |
+| 🌐 **Official Portal** | [weizerouter.web.id/portal](https://weizerouter.web.id/portal) | Live web dashboard, usage analytics & wallet switcher |
+| ⚡ **API Base URL** | `https://weizerouter.web.id/v1` | Universal OpenAI-compatible entrypoint |
+| 🤖 **Telegram Bot** | [@WeizeRouterBot](https://t.me/WeizeRouterBot) | Instant ordering, API key generator & balance monitor |
+| 👥 **Developer Community** | [t.me/weizerouter_indonesia](https://t.me/weizerouter_indonesia) | Engineering group, prompts & release announcements |
+| 💼 **Founder** | [@wangweize4](https://t.me/wangweize4) | Sovereign Founder & Infrastructure Architect |
+
+---
+
+## 👑 Flagship Models Matrix
+
+WeizeRouter features two strictly separated, high-performance computing tiers:
+
+### 1. 🌐 Regular Ecosystem (Rp65 / 1M Token · Permanent)
+
+| Model Identifier | Context Window | Architecture / Strengths | Multiplier |
+| :--- | :---: | :--- | :---: |
+| `wz/muse-spark-1.3-contributor` | **1,000,000 Tokens** | ♾️ **1M Context King.** Ultra-fast full-repo refactoring & multimodal. | `×2.3` |
+| `wz/gemini-3.8-flash-high` | 128,000 Tokens | ⚡ **IDE Workhorse.** Backed by 17 Google accounts. Ultra-low latency. | `×2.3` |
+| `wz/gemini-3.8-flash` | 128,000 Tokens | 🚀 Fast autocomplete & real-time chat completions. | `×1.6` |
+| `wz/grok-4.5` | 128,000 Tokens | 🧠 High-velocity coding & debugging with objective tone. | `×3.5` |
+| `wz/grok-4.6` | 128,000 Tokens | 🔬 Deep multi-step reasoning & complex architecture analysis. | `×5.0` |
+| `wz/glm-5.3-flash` | 128,000 Tokens | ⚡ Lightning fast responses for agentic loops & linting. | `×1.5` |
+| `wz/qwen-3.8-max` | 128,000 Tokens | 📐 High-precision mathematical and polyglot code generation. | `×3.5` |
+| `wz/deepseek-v4.1-flash` | 128,000 Tokens | 💡 Next-gen reasoning & algorithmic optimization. | `×2.5` |
+
+---
+
+### 2. 👑 Weize Premium Tier (Frontier VIP · 500 RPM Dedicated)
+
+> *Dedicated for high-intensity engineering teams requiring frontier intelligence.*
+
+| Premium Model | Backend Fleet | Capabilities | Multiplier |
+| :--- | :--- | :--- | :---: |
+| `cx/gpt-6-astra` | ChatGPT Team Frontier | Absolute state-of-the-art coding, architecture, and synthesis. | `×15` |
+| `cx/gpt-5.6-sol` | Codex Multi-Workspace | Flagship frontier code intelligence & complex system design. | `×10` |
+| `cx/gpt-5.6-luna` | Codex Multi-Workspace | High-speed frontier coding with deep contextual understanding. | `×4` |
+| `ag/claude-opus-4-6-thinking` | Antigravity VIP | Deepest reasoning, formal verification, and philosophical depth. | `×7` |
+| `ag/claude-sonnet-4-6` | Antigravity VIP | Peak software engineering and balanced frontier speed. | `×5` |
+
+---
+
+## 💰 Official Pricing Matrix
+
+<p align="center">
+  <img src="assets/package-cards.svg" alt="Pricing Packages" width="100%" />
+</p>
+
+### 📦 Regular Packages (Tarif Flat Rp65 / 1 Juta Token)
+
+> ⚠️ **Catatan Resmi:** *Tarif Rp65 / 1 Juta Token adalah batas harga terendah resmi (**MENTOK**) dan tidak akan pernah turun lagi.*
+
+| Paket Token | Total Saldo Token | Harga Resmi (IDR) | Masa Aktif | Akses Model |
+| :--- | :---: | :---: | :---: | :--- |
+| 🧪 **Mini** | **10.000.000 (10M)** | **Rp650** | 🟢 Permanen | Seluruh Model Reguler |
+| ⚡ **Lite** | **20.000.000 (20M)** | **Rp1.300** | 🟢 Permanen | Seluruh Model Reguler |
+| 🚀 **Starter** | **50.000.000 (50M)** | **Rp3.250** | 🟢 Permanen | Seluruh Model Reguler |
+| 💎 **Pro** | **100.000.000 (100M)** | **Rp6.500** | 🟢 Permanen | Seluruh Model Reguler |
+| 👑 **Ultimate** | **200.000.000 (200M)** | **Rp13.000** | 🟢 Permanen | Seluruh Model Reguler |
+| ◆ **Mega** | **500.000.000 (500M)** | **Rp32.500** | 🟢 Permanen | Seluruh Model Reguler |
+| ✦ **Billion** | **1.000.000.000 (1B)** | **Rp65.000** | 🟢 Permanen | Seluruh Model Reguler |
+| 🏛️ **Enterprise** | **2.000.000.000 (2B)** | **Rp130.000** | 🟢 Permanen | Seluruh Model Reguler |
+| ⚙️ **Custom Token** | *Sesuai Kebutuhan* | **Rp65 / 1 Juta** | 🟢 Permanen | Atur jumlah via bot |
+
+---
+
+## 🖥️ Live Terminal Telemetry
+
+<p align="center">
+  <img src="assets/terminal-demo.svg" alt="Terminal Demo" width="100%" />
+</p>
+
+---
+
+## 🚀 1-Minute Quickstart
+
+Because WeizeRouter is 100% OpenAI-compatible, you can integrate it instantly into your favorite IDEs and developer tools.
+
+### 1. Cursor IDE Setup
+Navigate to **Cursor Settings** ➡️ **Models** ➡️ **OpenAI API**:
+```json
+{
+  "openai.baseUrl": "https://weizerouter.web.id/v1",
+  "openai.apiKey": "wzr-live-your-api-key-here"
+}
 ```
+*Recommended Model in Cursor:* `wz/muse-spark-1.3-contributor` or `wz/gemini-3.8-flash-high`.
 
-## Quick Links
+---
 
-| Platform | Link |
-|---|---|
-| Website | https://weizerouter.web.id/ |
-| API Base URL | https://weizerouter.web.id/v1 |
-| Telegram Bot | https://t.me/WeizeRouterBot |
-| Telegram Group | https://t.me/weizerouter_indonesia |
-| GitHub | https://github.com/weizerouter/weizerouter |
-| LinkedIn | https://www.linkedin.com/in/weize-wang-4262b7406 |
-| Threads | https://www.threads.net/@weizerouter.ai |
-| Support | support@weizerouter.web.id |
+### 2. Cline & Roo Code (VS Code) Setup
+Open the extension settings and select **OpenAI Compatible**:
+- **Base URL:** `https://weizerouter.web.id/v1`
+- **API Key:** `wzr-live-your-api-key-here`
+- **Model ID:** `wz/muse-spark-1.3-contributor`
 
-## Key Features
+---
 
-- OpenAI-compatible `/v1` API
-- Multi-model AI access
-- Package-based model access
-- Telegram bot ordering
-- QRIS/Pakasir payment automation
-- Instant API key activation after payment confirmation
-- API key menu and model list menu
-- Fair-use protection
-- Developer-friendly examples
-- Website dashboard improvements in progress
-
-## Quick Start
-
-**Base URL**
-
-```text
-https://weizerouter.web.id/v1
-```
-
-**Endpoint**
-
-```text
-POST /chat/completions
-```
-
-**cURL**
-
-```bash
-curl https://weizerouter.web.id/v1/chat/completions \
-  -H "Authorization: Bearer YOUR_WEIZEROUTER_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "model": "wz/gpt-5.5",
-    "messages": [
-      {"role": "user", "content": "Hello from WeizeRouter"}
-    ]
-  }'
-```
-
-**Python**
-
+### 3. Python SDK (OpenAI v1.x)
 ```python
 from openai import OpenAI
 
 client = OpenAI(
-    api_key="YOUR_WEIZEROUTER_API_KEY",
+    api_key="wzr-live-your-api-key-here",
     base_url="https://weizerouter.web.id/v1"
 )
 
 response = client.chat.completions.create(
-    model="wz/gpt-5.5",
-    messages=[{"role": "user", "content": "Hello from WeizeRouter"}]
+    model="wz/muse-spark-1.3-contributor",
+    messages=[
+        {"role": "system", "content": "You are a master software architect."},
+        {"role": "user", "content": "Refactor this distributed microservice architecture."}
+    ],
+    temperature=0.3
 )
+
 print(response.choices[0].message.content)
 ```
 
-**Node.js**
+---
 
+### 4. Node.js (Official OpenAI SDK)
 ```javascript
-import OpenAI from "openai";
-const client = new OpenAI({ apiKey: "YOUR_WEIZEROUTER_API_KEY", baseURL: "https://weizerouter.web.id/v1" });
-const response = await client.chat.completions.create({ model: "wz/gpt-5.5", messages: [{ role: "user", content: "Hello from WeizeRouter" }] });
-console.log(response.choices[0].message.content);
+import OpenAI from 'openai';
+
+const client = new OpenAI({
+  apiKey: 'wzr-live-your-api-key-here',
+  baseURL: 'https://weizerouter.web.id/v1',
+});
+
+const stream = await client.chat.completions.create({
+  model: 'wz/gemini-3.8-flash-high',
+  messages: [{ role: 'user', content: 'Generate an ultra-fast REST handler in Go.' }],
+  stream: true,
+});
+
+for await (const chunk of stream) {
+  process.stdout.write(chunk.choices[0]?.delta?.content || '');
+}
 ```
 
-## Package Overview
+---
 
-| Package | Price | Duration | Public Model Access |
-|---|---:|---:|---|
-| Mini Trial | Rp600 | 2 hours | `wz/grok-3` |
-| Uji Coba | Rp2.000 | 1 day | `wz/grok-3` |
-| Pro | Rp7.000 | 1 day | 5 selected models |
-| Ultimate | Rp15.000 | 1 day | All premium public models |
+### 5. cURL (Streaming Mode)
+```bash
+curl -N -sS https://weizerouter.web.id/v1/chat/completions \
+  -H "Authorization: Bearer wzr-live-your-api-key-here" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "wz/muse-spark-1.3-contributor",
+    "messages": [{"role": "user", "content": "Ping"}],
+    "stream": true
+  }'
+```
 
-Fair use applies to keep the service stable for all users. Some models may be temporarily unavailable during high traffic or provider maintenance. Model availability may change based on stability, maintenance, and service conditions.
+---
 
-## Model Access
+## 🛡️ Standard Error Handling
 
-### Mini Trial
-- `wz/grok-3`
-
-### Uji Coba
-- `wz/grok-3`
-
-### Pro
-- `wz/grok-3`
-- `wz/grok-code-fast-1`
-- `wz/glm-4.7`
-- `wz/qwen3-coder-next-fp8`
-- `wz/qwen3.6-35b-a3b`
-
-### Ultimate
-- `wz/grok-3`
-- `wz/grok-code-fast-1`
-- `wz/grok-4`
-- `wz/grok-4-fast-reasoning`
-- `wz/gpt-5.5`
-- `wz/gpt-5.5-review`
-- `wz/gpt-5.4`
-- `wz/gpt-5.4-review`
-- `wz/gpt-5.4-mini`
-- `wz/gpt-5.4-mini-review`
-- `wz/deepseek-v4-flash`
-- `wz/deepseek-v4-pro`
-- `wz/glm-4.7`
-- `wz/qwen3-coder-next-fp8`
-- `wz/qwen3.5-397b-a17b`
-- `wz/qwen3.6-35b-a3b`
-- `wz/kimi-k2.6`
-- `wz/auto`
-- `wz/step-3.5-flash`
-- `wz/step-3.7-flash`
-- `wz/spark-x2-flash`
-- `wz/step-router-v1`
-
-## Telegram Bot Ordering Flow
-
-1. Open [@WeizeRouterBot](https://t.me/WeizeRouterBot)
-2. Select package
-3. Pay via QRIS/Pakasir
-4. Payment confirmation is processed automatically
-5. API key is activated
-6. Use the API key with `https://weizerouter.web.id/v1`
-
-## 9Router / Custom OpenAI Compatible
-
-| Setting | Value |
-|---|---|
-| Provider type | OpenAI Compatible |
-| Base URL | `https://weizerouter.web.id/v1` |
-| API Key | From WeizeRouterBot |
-| Model example | `wz/gpt-5.5` |
-
-## Error Format
-
-**Access denied**
+WeizeRouter returns standardized HTTP status codes and JSON error objects:
 
 ```json
-{"error":{"message":"Model ini tidak tersedia untuk paket kamu.","type":"access_denied","code":"wz_model_not_allowed"}}
+{
+  "error": {
+    "message": "Saldo token tidak mencukupi untuk melakukan request ini. Silakan top up di @WeizeRouterBot.",
+    "type": "insufficient_balance",
+    "code": "wz_insufficient_tokens"
+  }
+}
 ```
 
-**Model unavailable**
+| HTTP Status | Error Code | Meaning / Action |
+| :---: | :--- | :--- |
+| **`400`** | `model_not_supported` | Model identifier is not recognized or has been deprecated. |
+| **`401`** | `invalid_api_key` | API key is missing, formatted incorrectly, or inactive. |
+| **`402`** | `wz_insufficient_tokens` | Wallet balance is exhausted. Top up instantly via bot. |
+| **`403`** | `premium_required` | Frontier model requested without an active Weize Premium subscription. |
+| **`429`** | `rate_limit_exceeded` | Concurrency limit reached. Requests are queued automatically. |
+| **`502`** | `wz_upstream_busy` | Temporary upstream provider lock. Retry with auto-backoff. |
 
-```json
-{"error":{"message":"Model sedang sibuk atau sementara tidak tersedia. Silakan coba lagi beberapa saat.","type":"model_unavailable","code":"wz_model_temporarily_unavailable"}}
-```
+---
 
-**Fair use / rate limit**
+## 🏛️ Infrastructure & Founder
 
-```json
-{"error":{"message":"Limit paket kamu telah tercapai. Silakan coba lagi nanti.","type":"rate_limit_exceeded","code":"wz_package_limit_reached"}}
-```
+WeizeRouter is designed, engineered, and operated independently by **Wang Weize** (汪 / *Ong*), dedicated to empowering Indonesian and global developers with high-availability, zero-bullshit, enterprise AI infrastructure.
 
-## Fair Use
+- **Infrastructure Core:** Ubuntu Linux VPS • Dual 9Router • Go-Engine Fast Proxy • Pakasir Automated Settlement.
+- **Sovereign Authority:** Wang Weize ([@wangweize4](https://t.me/wangweize4)).
+- **License:** Open documentation licensed under the [MIT License](LICENSE).
 
-WeizeRouter applies fair-use protection to keep the service stable for all users. Some packages may include cooldown behavior or temporary request protection during high traffic. Internal thresholds are not publicly disclosed for security and stability reasons.
-
-## Security Notice
-
-- Never expose your API key publicly
-- Do not commit API keys to GitHub
-- Use environment variables
-- Contact support for key reset
-- Abuse, illegal use, and resale without permission are prohibited
-- This repository does not contain production source code, API keys, database files, or secrets
-
-## Roadmap
-
-**Now**: Telegram bot ordering, QRIS/Pakasir payment, instant API key activation, OpenAI-compatible API, multi-model access.
-
-**Next**: Website dashboard sync with bot packages, model health/status page, better usage analytics, API key management, package/payment visibility, and public status page.
-
-## Founder
-
-Created by **Wang Weize**.
-
-WeizeRouter is built to make AI API access simpler, faster, and more accessible for Indonesian developers.
-
-## Links
-
-[Website](https://weizerouter.web.id/) • [Telegram Bot](https://t.me/WeizeRouterBot) • [Docs](docs/README.md) • [Support](mailto:support@weizerouter.web.id)
+<p align="center">
+  <b>WeizeRouter Infrastructure &bull; Built for High-Speed Autonomous Engineering</b>
+</p>
