@@ -1,9 +1,7 @@
-# Security Policy
+# Security policy
 
-## Supported Versions
+Report suspected vulnerabilities privately to **support@weizestudio.web.id** or https://t.me/wangweize4.
 
-We actively support and patch the current major version of WeizeRouter. Please ensure you are running the latest release.
+Include the affected public product, time, a concise description and sanitized evidence. Do not publish real keys, payment credentials, customer data, private portal URLs or sensitive prompts. Do not access other customers' accounts or perform disruptive testing.
 
-## Reporting a Vulnerability
-
-If you discover a security vulnerability, please do not report it publicly on GitHub. Instead, send an email to `security@weizerouter.io` with a detailed description of the issue and steps to reproduce. We aim to respond within 48 hours and provide a patch as soon as possible.
+Public Issues are intended for documentation corrections, not private security or account disputes. No response-time or bounty promise is made by this document.

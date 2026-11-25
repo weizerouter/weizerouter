@@ -1,69 +1,23 @@
-# Packages & Pricing Tiers
+# Packages, balances and pricing
 
-WeizeRouter operates on a **100% Permanent Token Balance** model. Unlike traditional AI subscription services that charge monthly recurring fees or daily rental windows, your purchased token balance **never expires**. Tokens are deducted proportionally only when you submit prompts and receive completions.
+Use the live package menu at https://weizerouter.com/ or https://t.me/WeizeRouterBot for current prices, allocations, promotions and stock. Historic GitHub tables are not current offers. Website and bot catalogs may differ.
 
----
+- **Regular:** separate permanent purchased token wallet for eligible Regular models.
+- **Premium:** separate permanent purchased token wallet for eligible Premium models.
+- **Unlimited:** separate fixed-price package family with a defined duration and its own terms; not the permanent-token product.
+- **Uncensored (18+):** separate adult-only text service, balance and credentials.
+- **Audio:** separate Audio balance; use the Audio Studio's current character-based quotation.
+- **Image / Omni / Video:** use their own product-specific credit or pricing rules. Do not assume chat token credit pays for media.
+- **Reseller:** owner-defined packages and registration/signature conditions; availability and model entitlements follow the current policy. A directory entry is not a promise that purchases are open.
 
-## 💎 Regular Ecosystem (Flat Rp65 / 1 Juta Token)
+Model-specific multipliers, package permissions and the selected product determine billed usage. Review the displayed rules before purchase. Bonus/promotional credit and purchased balances are distinct; a bonus is not cash.
 
-> ⚠️ **Pemberitahuan Resmi (Batas Tarif Terendah):**  
-> *Tarif **Rp65 / 1 Juta Token** adalah batas harga terendah resmi (**MENTOK**) dari WeizeRouter dan dipastikan **TIDAK AKAN TURUN LAGI**.*
+## Purchasing
 
-| Paket Token | Total Token | Harga Resmi (IDR) | Masa Aktif | Akses Model |
-| :--- | :---: | :---: | :---: | :--- |
-| 🧪 **Mini** | 10.000.000 (10M) | **Rp650** | 🟢 Permanen | Seluruh Model Reguler |
-| ⚡ **Lite** | 20.000.000 (20M) | **Rp1.300** | 🟢 Permanen | Seluruh Model Reguler |
-| 🚀 **Starter** | 50.000.000 (50M) | **Rp3.250** | 🟢 Permanen | Seluruh Model Reguler |
-| 💎 **Pro** | 100.000.000 (100M) | **Rp6.500** | 🟢 Permanen | Seluruh Model Reguler |
-| 👑 **Ultimate** | 200.000.000 (200M) | **Rp13.000** | 🟢 Permanen | Seluruh Model Reguler |
-| ◆ **Mega** | 500.000.000 (500M) | **Rp32.500** | 🟢 Permanen | Seluruh Model Reguler |
-| ✦ **Billion** | 1.000.000.000 (1B) | **Rp65.000** | 🟢 Permanen | Seluruh Model Reguler |
-| 🏛️ **Enterprise** | 2.000.000.000 (2B) | **Rp130.000** | 🟢 Permanen | Seluruh Model Reguler |
-| ⚙️ **Custom Token** | Sesuai Kebutuhan | **Rp65 / 1 Juta** | 🟢 Permanen | Atur jumlah via bot |
+Website customers register and purchase in their website account. Bot customers purchase in the bot and request their own private portal. Existing accounts and balances are not silently merged across surfaces.
 
-### Model yang Didukung di Paket Reguler:
-- `wz/muse-spark-1.3-contributor` (1M Context Window King, multimodal)
-- `wz/gemini-3.8-flash-high` & `wz/gemini-3.8-flash` (Didukung armada 17 akun Google)
-- `wz/grok-4.5` & `wz/grok-4.6` (Didukung swarm 66 akun Grok)
-- `wz/glm-5.3-flash`, `wz/qwen-3.8-max`, `wz/deepseek-v4.1-flash`, `wz/kimi-k3`
+Midtrans checkout can offer QRIS, GoPay, eligible bank transfer/VA methods and supported cards. The invoice's actual choices and final IDR amount govern payment. Never pay an expired or cancelled invoice without contacting support.
 
----
+Manual purchases require admin confirmation and an explicit allocation. Do not infer a customer's payment or credit from a generic GitHub package description.
 
-## 👑 Weize Premium VIP (Frontier Intelligence)
-
-Untuk kebutuhan tim rekayasa perangkat lunak berskala besar yang membutuhkan model frontier kasta tertinggi dengan konkurensi **500 RPM Ultra-High Concurrency**:
-
-- **Model Unggulan:**
-  - `cx/gpt-6-astra` (Multiplier ×15)
-  - `cx/gpt-5.6-sol` (Multiplier ×10)
-  - `cx/gpt-5.6-luna` (Multiplier ×4)
-  - `ag/claude-opus-4-6-thinking` (Multiplier ×7)
-  - `ag/claude-sonnet-4-6` (Multiplier ×5)
-- **Arsitektur:** Disokong oleh 3 Workspace ChatGPT Team independen dan klaster Antigravity VIP.
-- **Pilihan Paket Resmi:**
-  - **Weize Premium 100M:** **Rp20.000** (500 RPM, Model VIP)
-  - **Weize Premium 200M:** **Rp38.000** (500 RPM, Model VIP)
-
----
-
-## ⚡ Perbandingan Kapasitas Request: WeizeRouter vs Official Subscription
-
-Bosan kena tulisan *"You've reached your limit. Try again in 3 hours"* di ChatGPT Plus atau Claude Pro? WeizeRouter dirancang untuk developer dan tim yang butuh performa tanpa henti.
-
-| Parameter | Langganan Resmi (ChatGPT Plus / Claude Pro) | WeizeRouter Regular Ecosystem | 👑 Weize Premium VIP |
-| :--- | :---: | :---: | :---: |
-| **Batas Request Harian** | ~300 - 500 req/hari *(ketat)* | **Ribuan req/hari** *(bebas)* | 🔥 **720.000 req/hari** *(Dedicated 500 RPM)* |
-| **Batas Request Bulanan** | ~2.000 - 5.000 req/bulan | **Puluhan ribu req/bulan** | 🚀 **21.600.000 req/bulan** (**10.000× Lipat!**) |
-| **Batas Konkurensi (RPM)** | 3 - 5 RPM *(mudah throttling)* | Rate limit adaptif | ⚡ **500 RPM Ultra-High Concurrency** |
-| **Masa Aktif Saldo** | Hangus tiap 30 hari | 🟢 **100% Permanen Tanpa Expired** | 🟢 **Permanen** |
-| **Biaya Bulanan** | Rp350.000+ ($20/bulan) flat | Mulai **Rp650** (Paket Mini 10M) | Mulai **Rp20.000** (Paket 100M) |
-| **Pilihan Model** | Hanya model milik satu vendor | 10+ Model (Gemini, Grok, GLM, Qwen, DeepSeek) | Frontier Elite (GPT-6 Astra, Opus 4.6, Sol) |
-
----
-
-## 💳 Metode Pembayaran & Aktivasi Instan
-
-1. **Buka Bot Telegram:** [@WeizeRouterBot](https://t.me/WeizeRouterBot).
-2. **Pilih Paket:** Klik menu `Beli Token` atau pilih paket yang diinginkan.
-3. **Scan QRIS Otomatis:** Sistem menerbitkan QRIS dinamis via Pakasir.
-4. **Aktivasi Seketika:** Begitu pembayaran selesai di e-wallet/m-banking, saldo otomatis terisi dan API key langsung aktif tanpa menunggu admin.
+[Payment flow](payment-flow.md) · [Ecosystem](ecosystem.md)

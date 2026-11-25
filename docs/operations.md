@@ -1,19 +1,10 @@
-# WeizeRouter Operations Manual
+# Public operational guidance
 
-Operational runbooks for maintaining WeizeRouter instances.
+- Check account, model, endpoint and wallet before attributing an error.
+- Keep invoice references and sanitized request timestamps for private support.
+- Retry transient errors with bounded backoff; avoid duplicate payments and runaway model fallbacks.
+- Verify payment status and wallet fulfillment separately.
+- Never post private portal links, keys, prompts containing personal data or confidential customer logs in public Issues.
+- A reachable landing page is not evidence of inference, media generation or payment settlement.
 
-## Service Status Check
-
-To check the active server instances via PM2:
-```bash
-pm2 list
-```
-
-To view real-time log outputs:
-```bash
-pm2 logs weizerouter-bot
-```
-
-## Database Backups
-
-SQLite databases are backed up automatically every day at midnight. Daily snapshots are saved under `/var/backups/weizerouter/`.
+Admin: https://t.me/wangweize4. Community: https://t.me/weizerouter_indonesia.

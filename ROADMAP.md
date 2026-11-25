@@ -1,16 +1,15 @@
-# WeizeRouter Roadmap
+# Public documentation roadmap
 
-This document outlines the planned development and milestones for WeizeRouter.
+## Current
 
-## Q3 2026 — Public Launch & Core Stabilization
+- Weize Studio ecosystem directory and product/account boundaries.
+- Primary `.com` API guide, current payment flow and model discovery.
+- Public-safe integration and support documentation.
 
-- [x] Complete V2 documentation overhaul.
-- [x] Integrate interactive flow diagrams and asset mappings.
-- [x] Finalize model pricing configurations for public tiers.
-- [ ] Open-source initial SDKs for Node.js and Python.
+## Maintenance priorities
 
-## Q4 2026 — Scale & Optimization
+- Keep official links and current product status aligned with live entry points.
+- Expand examples only after the corresponding feature is verified.
+- Improve accessibility and language coverage of documentation.
 
-- [ ] Implement global edge routing optimization.
-- [ ] Launch WeizeRouter dashboard with live usage metrics.
-- [ ] Add support for real-time cost-tracking and custom budget alerts.
+This is a documentation maintenance roadmap, not a promised product delivery schedule. Product access, payment and availability remain governed by live services and terms.

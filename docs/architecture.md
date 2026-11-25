@@ -1,16 +1,19 @@
-# WeizeRouter Architecture Guide
+# Public architecture overview
 
-This guide explains how WeizeRouter coordinates routing, token accounting, and failovers.
-
-## System Architecture Flow
-
+```text
+Developer application / editor
+             |
+      WeizeRouter public API
+             |
+ Authentication + model/package permission
+             |
+ Supported model routing and response streaming
+             |
+ Product-specific usage/accounting
 ```
-[User Client] --> [API Gateway (Node.js)] --> [Routing Engine (9Router)] --> [Upstream Provider]
-                      | (Check Quota & Logs)
-                      v
-               [SQLite billing DB]
-```
 
-## Key Sanitization
+Website accounts and Telegram accounts have distinct management surfaces. Regular and Premium balances are separate. Omni, Audio, image, video, Unlimited and adult-only text each have their own product rules; the common brand does not imply a shared key or wallet.
 
-WeizeRouter ensures security by dynamically sanitizing upstream responses before sending them back to clients. Any proprietary upstream token formats or headers are automatically mapped to standardized WeizeRouter responses, keeping the underlying infrastructure confidential.
+Checkout uses the current payment integration; order confirmation and wallet fulfillment are distinct from merely opening a payment page.
+
+Internal topology, server addresses, account inventory, credentials and implementation configuration are intentionally not documented publicly. This repository is documentation, not the production gateway source.

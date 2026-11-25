@@ -1,8 +1,9 @@
-# System Monitoring and Status
+# Status and monitoring
 
-This page outlines the monitoring systems in place for WeizeRouter services.
+Use the current website, bot notices and admin for service status. Public website telemetry describes reported activity, not a contractual uptime guarantee.
 
-## Alert Triggers
+This repository has no live uptime badge. Model catalog presence, HTTP 200 on a homepage, payment UI visibility and actual end-to-end product success are different checks.
 
-- **High CPU**: Alerts are triggered if PM2 CPU utilization exceeds 90% for longer than 3 minutes.
-- **Failed Audits**: Any unauthorized transaction or billing anomaly triggers a PM2 alert, which is logged and resolved manually.
+For this documentation refresh, primary WR, Studio, Omni, Audio, Tube, Premium, Unlimited, VPS and reseller-directory entry pages were reachable. The Partner entry returned HTTP 502. No real payment or generation was performed for this documentation refresh.
+
+Availability can change after these checks. Use the live service rather than this dated note as an operational monitor.

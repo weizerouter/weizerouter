@@ -1,11 +1,12 @@
-# WeizeRouter Error Codes Reference
+# API and integration errors
 
-This document outlines common error responses returned by the WeizeRouter API.
+Read the actual response body and request reference. Exact error names can vary by endpoint/model.
 
-## HTTP Status Codes
+- **400:** invalid parameters, unsupported model or limits. Fix the request; do not loop retries.
+- **401:** missing, invalid or inactive credentials. Confirm the correct product/account key privately.
+- **402:** insufficient balance where used by the endpoint. Check the applicable wallet.
+- **403:** package/model permission or policy restriction. A listed model is not universal entitlement.
+- **429:** rate limit or temporary capacity restriction. Respect retry instructions and reduce load. Do not assume requests are automatically queued.
+- **5xx:** gateway/upstream failure. Use bounded backoff and check status/support.
 
-- `400 Bad Request`: Missing mandatory parameters or invalid JSON body.
-- `401 Unauthorized`: Invalid or expired API token.
-- `402 Payment Required`: Account quota exceeded. Top-up is required to continue.
-- `429 Too Many Requests`: Rate limit hit for the current tier.
-- `500 Internal Server Error`: An error occurred upstream. Auto-failover is triggered if configured.
+For interrupted streams, retain request time/reference and reconcile usage before retrying expensive work. A client timeout alone is not proof of a provider outage or an incorrect charge. Send relevant sanitized diagnostics privately to admin; never publish keys or full sensitive prompts.

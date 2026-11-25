@@ -1,9 +1,9 @@
-# WeizeRouter Fair Use Policy
+# Fair use and service terms
 
-To ensure consistent speed and reliability for all developers on our platform, we enforce a standard fair use policy.
+Use services lawfully and follow the current product terms shown on the website or bot. Respect rate limits, model permissions and product-specific access conditions. Do not overload services with uncontrolled retry loops, spam or unauthorized activity.
 
-## Key Rules
+Purchased credit, promotional bonus and refundable money are distinct concepts. Permanent token balance is not an unlimited-concurrency or availability guarantee. Reselling requires compliance with the current reseller program terms.
 
-- **No Key Sharing**: API keys are intended for single-tenant or individual developer systems. Multi-tenant key sharing violates terms.
-- **Automated Scraping**: Scraping or flood-testing WeizeRouter endpoints with artificial traffic is strictly prohibited.
-- **Abuse Penalties**: Accounts detected violating fair use guidelines may face rate limiting or temporary suspension.
+The adult-only text product is restricted to users aged 18+ and lawful use. It does not waive legal or safety obligations.
+
+For current contractual, privacy and refund policies consult https://weizestudio.web.id/ and the relevant product's terms. This summary does not create new refund promises or override purchase-specific agreements.
