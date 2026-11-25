@@ -37,6 +37,14 @@
 | **WeizeRouter Bot** | Telegram purchases, balances, keys, help and private portal access | [@WeizeRouterBot](https://t.me/WeizeRouterBot) |
 | **CLI & integrations** | Public guidance for coding agents, editors and SDKs | [CLI guide](https://weizerouter.web.id/cli-guide.html) · [Integrations](docs/integrations.md) |
 
+### Payments for businesses
+
+**[WeizePay](https://weizerouter.com/pay/)** is the Weize Studio payment-orchestration product for merchants: QRIS invoices, payment-status monitoring and application/bot integration. It is distinct from Midtrans checkout used to purchase ecosystem products, and it is not an AI token wallet.
+
+[Explore WeizePay / merchant access →](https://weizerouter.com/pay/) · [Product guide →](docs/weizepay.md)
+
+Current methods, plans and eligibility follow the merchant portal. The USDT preview on the landing page is **not a public payment option**; do not send funds to demo interfaces.
+
 ### Creative AI & specialist products
 
 | Product | Experience | Entry / access |

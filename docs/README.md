@@ -6,6 +6,7 @@
 - [Models & permissions](models.md)
 - [Packages & balances](packages.md)
 - [Payments](payment-flow.md)
+- [WeizePay merchant product](weizepay.md)
 - [Integrations](integrations.md)
 - [Errors](error-codes.md)
 - [FAQ](faq.md)

@@ -9,6 +9,10 @@ Updated: 26 November 2026. Public entry-page checks are not full transactional o
 - **Telegram bot:** https://t.me/WeizeRouterBot — bot accounts, packages, personal portal and help.
 - **Legacy addresses:** existing `.web.id` services and API addresses remain relevant. Do not replace private portal URLs with guessed public links.
 
+## Merchant payments
+
+**WeizePay:** [official overview and merchant entry](https://weizerouter.com/pay/). Merchant payment orchestration for QRIS invoices, status monitoring and integrations. Separate from AI credits and from the Midtrans checkout used for ecosystem purchases. Plans and available methods follow the live portal. The landing USDT concept is not available for public payments. See [WeizePay guide](weizepay.md).
+
 ## Creative and consumer products
 
 - **Weize Omni:** https://weizeomni.web.id/ — Google-login chat, image and voice workspace. Omni has its own credit ledger, not a shared WR token wallet.

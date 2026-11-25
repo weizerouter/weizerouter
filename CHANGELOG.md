@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-26 — WeizePay product directory
+
+- Added WeizePay overview, merchant portal, API documentation and account/money boundaries.
+- Kept live plans/methods authoritative and distinguished demo payment concepts from public availability.
+
+
 ## 2026-11-26 — Premium public presentation
 
 - Added an editorial charcoal/ivory/brass README presentation, product pathways and original Studio mark.

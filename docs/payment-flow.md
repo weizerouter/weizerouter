@@ -1,5 +1,7 @@
 # Payments and order flow
 
+**Looking for the merchant product?** See [WeizePay](weizepay.md). This page describes purchasing ecosystem products through checkout, not WeizePay merchant onboarding.
+
 Current public payment integration uses **Midtrans**. The old Pakasir-only QRIS description is historical, not the current purchase guide.
 
 ## Website
