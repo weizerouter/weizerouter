@@ -1,53 +1,80 @@
-<p align="center"><img src="assets/weizerouter-banner.svg" alt="WeizeRouter — A Weize Studio Product" width="100%"></p>
+<p align="center"><img src="assets/weizerouter-banner.svg" alt="WeizeRouter — One ecosystem. Limitless ideas. A Weize Studio Product." width="100%"></p>
 
-# WeizeRouter · Weize Studio Ecosystem
+<p align="center">
+  <a href="https://weizerouter.com/"><img alt="Explore WeizeRouter" src="https://img.shields.io/badge/EXPLORE-WeizeRouter-ccb17a?style=for-the-badge&labelColor=171717"></a>
+  <a href="https://weizestudio.web.id/"><img alt="Weize Studio" src="https://img.shields.io/badge/A_PRODUCT_OF-Weize_Studio-ccb17a?style=for-the-badge&labelColor=171717"></a>
+  <a href="https://t.me/WeizeRouterBot"><img alt="Telegram Bot" src="https://img.shields.io/badge/TELEGRAM-Open_Bot-ccb17a?style=for-the-badge&labelColor=171717"></a>
+</p>
 
-**AI APIs, developer tools, creative AI and automation — connected through the Weize Studio ecosystem.**
+<h1 align="center">The Weize Studio Ecosystem</h1>
+<p align="center"><strong>Developer infrastructure. Creative intelligence. A connected product family.</strong><br>Built independently in Medan, Indonesia — for developers, creators and businesses.</p>
 
-[WeizeRouter](https://weizerouter.com/) · [Weize Studio](https://weizestudio.web.id/) · [Weize Omni](https://weizeomni.web.id/) · [Telegram Bot](https://t.me/WeizeRouterBot) · [Documentation](docs/README.md)
+<p align="center"><a href="#01--choose-your-workspace">Products</a> · <a href="#02--the-complete-ecosystem">Ecosystem</a> · <a href="#03--build-with-weizerouter">Developer API</a> · <a href="#04--accounts-wallets--payments">Payments</a> · <a href="#05--learn-integrate--explore">Guides</a> · <a href="#06--official-contacts--socials">Contacts & Socials</a></p>
 
-WeizeRouter is the developer API platform in the **Weize Studio** ecosystem, based in Medan, Indonesia. Use supported models through OpenAI-compatible and Anthropic-compatible interfaces, manage developer access on the web, or purchase and manage bot packages through Telegram.
+---
 
-> Public documentation refreshed **26 November 2026**. Product availability, model permissions, prices and payment methods follow the live catalog and checkout. This repository contains public documentation and illustrations, **not production source code**.
+**Weize Studio** brings cloud APIs, AI experiences, software engineering and automation under one parent brand. **WeizeRouter** is our developer gateway; **My WeizeRouter** is the web account experience; **Weize Omni** is the browser AI workspace; **Weize Audio** gives text a voice. Telegram, tutorials and community connect the ecosystem.
 
-## Explore the ecosystem
+> **Official public documentation · refreshed 26 November 2026.** Live product pages, account permissions and checkout govern current availability and commercial terms. This is a documentation repository, not the private production codebase.
 
-| Product / service | What it is | Official entry |
+## 01 · Choose your workspace
+
+<img src="assets/ecosystem-pathways.svg" alt="Build with WeizeRouter, create with Omni and Audio, connect through Telegram and community" width="100%">
+
+<table>
+<tr><td width="33%" valign="top"><h3>Build with APIs</h3><p>Connect applications, coding agents and compatible editors. Manage your own keys, purchases and usage on the web.</p><p><a href="https://weizerouter.com/">Open WeizeRouter →</a></p></td><td width="33%" valign="top"><h3>Create in the browser</h3><p>Use Omni for chat, image and voice workflows. Open Audio Studio for dedicated text-to-speech creation.</p><p><a href="https://weizeomni.web.id/">Open Omni →</a> · <a href="https://weizerouter.com/audio">Audio Studio →</a></p></td><td width="33%" valign="top"><h3>Start from Telegram</h3><p>Browse bot products, purchase packages, check balances and request your personal portal. Learn alongside the community.</p><p><a href="https://t.me/WeizeRouterBot">Open the bot →</a></p></td></tr>
+</table>
+
+## 02 · The complete ecosystem
+
+### Foundation & developer tools
+
+| Product | Experience | Official destination |
 | --- | --- | --- |
-| **Weize Studio** | Parent technology brand: cloud API, software engineering and automation services | [weizestudio.web.id](https://weizestudio.web.id/) |
-| **WeizeRouter / My WeizeRouter** | Developer platform: web registration, purchases, API keys, wallets and usage | [weizerouter.com](https://weizerouter.com/) |
-| **WeizeRouter Bot** | Telegram purchasing, balances, keys and personal portal access | [@WeizeRouterBot](https://t.me/WeizeRouterBot) |
-| **Weize Omni** | Browser-based AI chat, image and voice workspace with Google login; its own credits | [weizeomni.web.id](https://weizeomni.web.id/) |
-| **Weize Audio** | Text-to-speech Studio and API; Audio balance is separate from chat tokens | [Audio Studio](https://weizerouter.com/audio) |
-| **WeizeRouter CLI & integrations** | Guides for coding agents, editors and SDK integrations | [CLI guide](https://weizerouter.web.id/cli-guide.html) |
-| **WeizeRouter Tube** | Community video tutorials | [Tube](https://weizerouter.web.id/tube/) |
-| **Regular personal portal** | Bot customer's own wallet and usage view | Request a private link from the bot |
-| **Weize Premium** | Premium model and wallet surface; access follows your account and package | [Premium portal](https://weizerouter.web.id/premium) |
-| **Weize Unlimited** | Separate fixed-price, time-limited package family; not the permanent-token wallet product | [Unlimited portal](https://weizerouter.web.id/unlimited) |
-| **Weize Uncensored · 18+** | Separate adult-only text service, credentials and balance; subject to lawful-use terms | Access through the bot |
-| **Weize Image Turbo** | Credit-based image generation through the Telegram bot | Bot command `/gambar` |
-| **Video workspace / catalog** | Separate video product surfaces; model listing is not a guarantee of generation availability | Check the current website / Omni workspace |
-| **Official Resellers** | Reseller registration, terms and signature directory; purchase availability varies | [Reseller directory](https://my.weizerouter.web.id/reseller-resmi) |
-| **Partner & Referral** | Partnership and referral programs with their own eligibility and terms | Bot menus; [Partner](https://weizerouter.web.id/partner/) |
-| **Leaderboard & telemetry** | Public community rankings and usage statistics | [Leaderboard](https://weizerouter.web.id/leaderboard) · website statistics |
-| **Weize VPS** | Cloud VPS service information; a visible page does not mean new sales are open | [VPS](https://weizerouter.web.id/vps) |
+| **Weize Studio** | Parent brand · cloud API · software engineering · automation | [Studio](https://weizestudio.web.id/) |
+| **WeizeRouter** | AI gateway with supported OpenAI- and Anthropic-compatible interfaces | [Platform](https://weizerouter.com/) |
+| **My WeizeRouter** | Web registration, purchases, API keys, wallets and usage | [Web account](https://weizerouter.com/login/) |
+| **WeizeRouter Bot** | Telegram purchases, balances, keys, help and private portal access | [@WeizeRouterBot](https://t.me/WeizeRouterBot) |
+| **CLI & integrations** | Public guidance for coding agents, editors and SDKs | [CLI guide](https://weizerouter.web.id/cli-guide.html) · [Integrations](docs/integrations.md) |
 
-**Important:** website accounts, bot accounts, Omni credits and product-specific balances are not one shared wallet. Do not assume balances or keys transfer between services. Personal portal links are private.
+### Creative AI & specialist products
 
-See [the ecosystem guide](docs/ecosystem.md) for account boundaries and availability notes.
+| Product | Experience | Entry / access |
+| --- | --- | --- |
+| **Weize Omni** | Google-login browser workspace for AI chat, image and voice, with its own credits | [Open Omni](https://weizeomni.web.id/) |
+| **Weize Audio** | Text-to-speech Studio and API; separate Audio accounting | [Audio Studio](https://weizerouter.com/audio) |
+| **Weize Image Turbo** | Credit-based image generation in Telegram | Bot command `/gambar` |
+| **Video workspace & catalog** | Dedicated media surfaces with product-specific access and billing | Check current website / Omni workspace; listed models are not a generation guarantee |
+| **Weize Uncensored · 18+** | Separate adult-only text service with its own balance and credentials | Bot product menu · lawful-use terms apply |
 
-## Developer API
+### Packages, business & community
 
-- OpenAI-compatible base URL: **`https://weizerouter.com/v1`**
-- Chat completions: **`POST /v1/chat/completions`**
-- Discover model IDs: **`GET /v1/models`** using your own key.
-- Anthropic-compatible base URL: **`https://weizerouter.com`**, with **`POST /v1/messages`** for supported models.
-- Existing `.web.id` API addresses remain available; `.com` is the primary address for new integrations.
-- Streaming and tool calling depend on the selected model and client.
+| Service | What to know | Official destination |
+| --- | --- | --- |
+| **Regular personal portal** | Your bot account's private balance and usage surface | Request your unique link from the bot |
+| **Weize Premium** | Premium wallet and eligible frontier-model experience | [Premium](https://weizerouter.web.id/premium) |
+| **Weize Unlimited** | Fixed-price packages with their own duration and conditions | [Unlimited](https://weizerouter.web.id/unlimited) |
+| **Official Resellers** | Registration, signature directory and program terms; purchase access varies | [Reseller directory](https://my.weizerouter.web.id/reseller-resmi) |
+| **Partner program** | Business partnership subject to current enrollment and terms | [Partner](https://weizerouter.web.id/partner/) · admin if unavailable |
+| **Referral** | Personal referral entry and account statistics | Bot menu |
+| **WeizeRouter Tube** | Community-created video tutorials | [Watch tutorials](https://weizerouter.web.id/tube/) |
+| **Leaderboard** | Public community ranking | [Explore](https://weizerouter.web.id/leaderboard) |
+| **Public telemetry** | Reported gateway activity on the website; not an uptime SLA | [WeizeRouter](https://weizerouter.com/) |
+| **Weize VPS** | Cloud VPS information; new sales depend on availability | [VPS information](https://weizerouter.web.id/vps) |
 
-Use a model ID returned for **your account**. A catalog listing is not an uptime guarantee or proof that every package can use every model.
+[Read the ecosystem handbook →](docs/ecosystem.md)
 
-### Python quickstart
+## 03 · Build with WeizeRouter
+
+<table>
+<tr><td width="50%" valign="top"><h3>OpenAI-compatible</h3><p>Base URL: <code>https://weizerouter.com/v1</code></p><p><code>GET /v1/models</code><br><code>POST /v1/chat/completions</code></p><p>Use your own key and an exact eligible model ID. Streaming and tools depend on the selected model.</p></td><td width="50%" valign="top"><h3>Anthropic-compatible</h3><p>Origin: <code>https://weizerouter.com</code></p><p><code>POST /v1/messages</code><br><code>POST /v1/messages/count_tokens</code></p><p>Use supported models and the live integration guide. Avoid duplicating the <code>/v1</code> path in client settings.</p></td></tr>
+</table>
+
+**Existing `.web.id` API addresses remain supported.** Use `.com` as the primary address for new integrations. Accounts and product-specific keys are not automatically interchangeable.
+
+### Your first request
+
+Install the OpenAI SDK, set `WEIZEROUTER_API_KEY` privately, then select an exact model ID available to your account:
 
 ```python
 import os
@@ -57,43 +84,125 @@ client = OpenAI(
     api_key=os.environ["WEIZEROUTER_API_KEY"],
     base_url="https://weizerouter.com/v1",
 )
-# Set this to an exact model ID available to your account.
-model_id = os.environ["WEIZEROUTER_MODEL"]
-reply = client.chat.completions.create(
-    model=model_id,
+
+# Discover IDs available to this key before selecting one.
+for model in client.models.list().data:
+    print(model.id)
+
+response = client.chat.completions.create(
+    model=os.environ["WEIZEROUTER_MODEL"],
     messages=[{"role": "user", "content": "Hello, WeizeRouter!"}],
 )
-print(reply.choices[0].message.content)
+print(response.choices[0].message.content)
 ```
 
-[API usage](docs/api-usage.md) · [Models](docs/models.md) · [Editor & SDK integrations](docs/integrations.md) · [Errors](docs/error-codes.md)
+<details><summary><strong>Node.js · streaming example</strong></summary>
 
-## Accounts, packages & payment
+```javascript
+import OpenAI from 'openai';
+const client = new OpenAI({
+  apiKey: process.env.WEIZEROUTER_API_KEY,
+  baseURL: 'https://weizerouter.com/v1',
+});
+const stream = await client.chat.completions.create({
+  model: process.env.WEIZEROUTER_MODEL,
+  messages: [{ role: 'user', content: 'Hello, WeizeRouter!' }],
+  stream: true,
+});
+for await (const chunk of stream) {
+  process.stdout.write(chunk.choices[0]?.delta?.content ?? '');
+}
+```
 
-**Website:** register / sign in at [weizerouter.com](https://weizerouter.com/), choose a package and payment method, then check your order and wallet in the same account.
+</details>
 
-**Telegram:** open [@WeizeRouterBot](https://t.me/WeizeRouterBot), choose the product and package, then select the payment method. QRIS is displayed in chat; bank/card flows use the payment page.
+<details><summary><strong>cURL · discover your account's models</strong></summary>
 
-**Payments now use Midtrans**, not a QRIS-only checkout description. Supported choices shown by the current checkout can include QRIS, GoPay, bank Virtual Accounts / Mandiri Bill, Visa and Mastercard. Method availability, bank authorization and invoice limits can vary. Transactions settle in **Indonesian Rupiah (IDR)**.
+```bash
+curl --fail-with-body https://weizerouter.com/v1/models \
+  -H "Authorization: Bearer $WEIZEROUTER_API_KEY"
+```
 
-Regular and Premium token wallets are separate. Purchased token balances are permanent; **Unlimited packages have their own duration**, and other products have their own accounting and terms. Model multipliers and package permissions affect usage. Always review the live price and allocation before paying; historic GitHub pricing is not a current offer.
+Do not publish your environment variables. Use [the API guide](docs/api-usage.md) for request examples and [error guidance](docs/error-codes.md) for troubleshooting.
 
-[Packages & balances](docs/packages.md) · [Payment flow](docs/payment-flow.md) · [FAQ](docs/faq.md)
+</details>
 
-## Support & community
+**Bring your preferred tools:** compatible versions of Cursor, Cline, Roo Code, Continue, OpenCode, Kilo Code, Hermes Agent and custom applications can use a supported custom-provider configuration. Client-specific capabilities and setup vary; see [integrations](docs/integrations.md).
 
-- Admin / purchases: [@wangweize4](https://t.me/wangweize4)
-- WhatsApp: [+62 882-7720-0044](https://wa.me/6288277200044)
-- Studio support: **support@weizestudio.web.id**
-- Community: [@weizerouter_indonesia](https://t.me/weizerouter_indonesia)
-- Studio and official channel links: [Weize Studio](https://weizestudio.web.id/)
+## 04 · Accounts, wallets & payments
 
-GitHub Issues are for public documentation feedback. **Never post API keys, private portal URLs, payment credentials, customer data or confidential logs.** Security issues belong in a private report: [Security policy](SECURITY.md).
+<img src="assets/payment-flow.svg" alt="Midtrans payment journey: choose product, review package, select method, check order and balance" width="100%">
 
-## Documentation scope
+### Choose the right account
 
-No static badge here certifies live uptime. RPM means requests per minute, **not simultaneous concurrency**. Rate limits are not guaranteed daily or monthly request capacity. Product status pages, account permissions and current checkout take precedence over illustrative documentation.
+- **Website customer:** register / sign in, choose a package, review checkout and check the order in the same website account.
+- **Bot customer:** open the bot, choose a product and package, select a payment method and check the invoice in Telegram.
+- **Omni customer:** use the browser workspace and its own credit system.
 
-Documentation is licensed under [MIT](LICENSE). This does not license private production software, grant rights to third-party models, or replace service terms. WeizeRouter and the ecosystem are independently operated; third-party trademarks belong to their respective owners.
+**A shared brand does not mean a shared wallet.** Website and Telegram identities remain separate. Regular and Premium wallets are distinct; Audio, image, video, adult-only text and Omni follow their own accounting. A key from one product is not automatically valid for another.
 
-**A Weize Studio Product.**
+### Pay with the methods offered by your invoice
+
+**Midtrans** checkout can offer **QRIS, GoPay, eligible bank Virtual Accounts / Mandiri Bill, Visa and Mastercard**. Actual choices depend on the product, provider, invoice limits and bank authorization. Orders settle in **IDR**; displayed foreign-currency conversions are estimates.
+
+In Telegram, choose the method first: **QRIS appears as an image in chat**, while bank/card flows use the invoice payment page. Payment status and wallet fulfillment are separate checks.
+
+### Packages without stale promises
+
+Purchased **Regular / Premium token balances are permanent**. **Unlimited packages have a defined duration**, and other products have their own terms. Model multipliers and permissions affect usage. Bonus credit is not cash. Prices, promotions, stock and exact allocations belong to the live package menu—not an outdated static table.
+
+[Packages & balances →](docs/packages.md) · [Payment guide →](docs/payment-flow.md) · [FAQ →](docs/faq.md)
+
+## 05 · Learn, integrate & explore
+
+| Start here | Reference |
+| --- | --- |
+| Understand all products and account boundaries | [Ecosystem handbook](docs/ecosystem.md) |
+| Build your first application | [API usage](docs/api-usage.md) |
+| Select models and understand permissions | [Models](docs/models.md) |
+| Connect your editor or agent | [Integrations](docs/integrations.md) · [CLI guide](https://weizerouter.web.id/cli-guide.html) |
+| Resolve API errors | [Error guide](docs/error-codes.md) |
+| Learn visually | [WeizeRouter Tube](https://weizerouter.web.id/tube/) · [YouTube](https://www.youtube.com/@weizerouter) |
+| Review lawful-use expectations | [Fair use](docs/fair-use.md) · live product terms |
+| Understand public status information | [Status & monitoring](docs/status-and-monitoring.md) |
+| Suggest documentation improvements | [Contributing](CONTRIBUTING.md) |
+| Report a vulnerability privately | [Security policy](SECURITY.md) |
+
+## 06 · Official contacts & socials
+
+### Talk to the team
+
+| Channel | Official contact | Best for |
+| --- | --- | --- |
+| **Telegram admin** | [@wangweize4](https://t.me/wangweize4) | Purchases, account questions and custom requirements |
+| **WhatsApp** | [+62 882-7720-0044](https://wa.me/6288277200044) | Business enquiries and support |
+| **Studio email** | [support@weizestudio.web.id](mailto:support@weizestudio.web.id) | Support and private security reports |
+| **Studio website** | [weizestudio.web.id](https://weizestudio.web.id/) | Parent brand, services, official contacts and policies |
+| **Location** | Medan, Sumatera Utara, Indonesia | Operational base; not a public walk-in address |
+
+### Follow the ecosystem
+
+| Platform | Account / destination |
+| --- | --- |
+| **YouTube · WeizeRouter** | [@weizerouter](https://www.youtube.com/@weizerouter) |
+| **YouTube · Weize Studio** | [@weizestudio](https://www.youtube.com/@weizestudio) |
+| **Facebook** | [Weize Studio · official page](https://www.facebook.com/share/1EKfyKvR91/) |
+| **X / Twitter** | [@WeizeRouter](https://x.com/WeizeRouter) |
+| **TikTok** | [@weizerouter](https://www.tiktok.com/@weizerouter) |
+| **Threads** | [@weizerouter.ai](https://www.threads.net/@weizerouter.ai) |
+| **GitHub** | [github.com/weizerouter](https://github.com/weizerouter) |
+| **Telegram announcements** | [@weizerouter_updates](https://t.me/weizerouter_updates) |
+| **Telegram community** | [@weizerouter_indonesia](https://t.me/weizerouter_indonesia) |
+| **Telegram service bot** | [@WeizeRouterBot](https://t.me/WeizeRouterBot) |
+
+Contacts and social destinations are sourced from [Weize Studio's official website](https://weizestudio.web.id/), not guessed handles. Social platforms may require login. [Full contact directory →](docs/contacts-and-socials.md)
+
+---
+
+### A note on trust
+
+Keep API keys, private portal links and payment data private. Public Issues are for documentation feedback; account and security reports belong in private support. No static badge certifies uptime. **RPM means requests per minute, not simultaneous concurrency**, and does not establish guaranteed daily capacity. Model listings do not certify live inference or media generation.
+
+See live product terms and Studio policies for contractual, privacy and refund conditions. [MIT](LICENSE) covers this public documentation, not private production software or third-party model rights. All third-party trademarks belong to their respective owners.
+
+<p align="center"><img src="assets/brands/weize-studio-original.svg" width="48" alt="Original Weize Studio mark"><br><strong>A Weize Studio Product.</strong><br><a href="https://weizestudio.web.id/">Weize Studio</a> · <a href="https://weizerouter.com/">WeizeRouter</a> · <a href="https://weizeomni.web.id/">Weize Omni</a><br><sub>Independent technology. Connected experiences. Built in Medan.</sub></p>

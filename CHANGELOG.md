@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-26 — Premium public presentation
+
+- Added an editorial charcoal/ivory/brass README presentation, product pathways and original Studio mark.
+- Expanded developer onboarding, complete official contacts and social directory.
+- Preserved truthful product/account boundaries and public-only documentation.
+
+
 ## 2026-11-26 — Weize Studio ecosystem documentation refresh
 
 - Introduced Weize Studio, WeizeRouter/My WR, Omni, Audio, bot, CLI, Tube, Premium, Unlimited, Uncensored, image/video surfaces, reseller, partner/referral, rankings and VPS information.

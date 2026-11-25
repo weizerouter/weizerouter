@@ -1,6 +1,7 @@
 # Documentation
 
 - [Ecosystem & product directory](ecosystem.md)
+- [Official contacts & social accounts](contacts-and-socials.md)
 - [API usage](api-usage.md)
 - [Models & permissions](models.md)
 - [Packages & balances](packages.md)
